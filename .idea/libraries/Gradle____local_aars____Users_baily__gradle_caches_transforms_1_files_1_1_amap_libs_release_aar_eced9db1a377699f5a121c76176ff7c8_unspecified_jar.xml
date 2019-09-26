@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8/jars/libs/AMap_Location_V4.2.0_20180809.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8/jars/libs/AMap_Search_V6.1.0_20180330.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/amap-libs-release.aar/eced9db1a377699f5a121c76176ff7c8/jars/libs/Android_Map3D_SDK_V6.4.1_20180906.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

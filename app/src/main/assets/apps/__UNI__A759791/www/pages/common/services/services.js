@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"service-ip { font-size: ",[0,20],"; }\n",],undefined,{path:"./pages/common/services/services.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/common/services/services.wxml') } }));

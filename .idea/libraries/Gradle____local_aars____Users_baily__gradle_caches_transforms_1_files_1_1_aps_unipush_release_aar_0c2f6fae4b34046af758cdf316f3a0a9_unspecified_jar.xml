@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK-support-OPPO-1.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK-support-HWP-1.0.5.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK4.3.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK-support-VIVO-1.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK-support-XMP-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9/jars/libs/GetuiSDK-support-MZP-1.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

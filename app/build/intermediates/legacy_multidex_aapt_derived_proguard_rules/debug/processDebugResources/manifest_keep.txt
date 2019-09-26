@@ -1,0 +1,4 @@
+# Referenced at /Users/baily/code/c7-app/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:232
+-keep class io.dcloud.application.DCloudApplication { <init>(...); }
+# Referenced at /Users/baily/code/c7-app/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:880
+-keep class io.dcloud.multiprocess.activity.WebAppActivity1 { <init>(...); }

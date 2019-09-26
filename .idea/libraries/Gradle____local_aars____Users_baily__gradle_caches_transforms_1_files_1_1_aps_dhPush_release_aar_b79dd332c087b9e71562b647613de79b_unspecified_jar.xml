@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-dhPush-release.aar/b79dd332c087b9e71562b647613de79b:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-dhPush-release.aar/b79dd332c087b9e71562b647613de79b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-dhPush-release.aar/b79dd332c087b9e71562b647613de79b/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-dhPush-release.aar/b79dd332c087b9e71562b647613de79b/jars/libs/MKeyPush.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

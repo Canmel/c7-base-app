@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"page { height: 100vh; padding-top: ",[0,150],"; }\n",],undefined,{path:"./pages/tabBar/manage/manage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabBar/manage/manage.wxml') } }));
