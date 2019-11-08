@@ -12,6 +12,6 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int sp_ifly_error_tips = 0x7f0b004e;
+        public static final int sp_ifly_error_tips = 0x7f0b0037;
     }
 }

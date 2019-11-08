@@ -12,87 +12,87 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int video_background_gray = 0x7f040062;
-        public static final int video_background_gray_light = 0x7f040063;
-        public static final int video_bg_video_view = 0x7f040064;
-        public static final int video_btn_danmaku_control_color = 0x7f040065;
-        public static final int video_recover_screen_text = 0x7f040066;
-        public static final int video_seek_background = 0x7f040067;
-        public static final int video_seek_ball = 0x7f040068;
-        public static final int video_seek_progress = 0x7f040069;
-        public static final int video_seek_secondary_progress = 0x7f04006a;
+        public static final int video_background_gray = 0x7f04005c;
+        public static final int video_background_gray_light = 0x7f04005d;
+        public static final int video_bg_video_view = 0x7f04005e;
+        public static final int video_btn_danmaku_control_color = 0x7f04005f;
+        public static final int video_recover_screen_text = 0x7f040060;
+        public static final int video_seek_background = 0x7f040061;
+        public static final int video_seek_ball = 0x7f040062;
+        public static final int video_seek_progress = 0x7f040063;
+        public static final int video_seek_secondary_progress = 0x7f040064;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int video_aspect_btn_height = 0x7f05007d;
-        public static final int video_aspect_btn_size = 0x7f05007e;
-        public static final int video_control_bar_height = 0x7f05007f;
-        public static final int video_danmaku_input_options_color_radio_btn_height = 0x7f050080;
-        public static final int video_danmaku_input_options_color_radio_btn_margin = 0x7f050081;
-        public static final int video_danmaku_input_options_color_radio_btn_size = 0x7f050082;
-        public static final int video_danmaku_input_options_color_radio_btn_width = 0x7f050083;
-        public static final int video_danmaku_input_options_height = 0x7f050084;
+        public static final int video_aspect_btn_height = 0x7f050078;
+        public static final int video_aspect_btn_size = 0x7f050079;
+        public static final int video_control_bar_height = 0x7f05007a;
+        public static final int video_danmaku_input_options_color_radio_btn_height = 0x7f05007b;
+        public static final int video_danmaku_input_options_color_radio_btn_margin = 0x7f05007c;
+        public static final int video_danmaku_input_options_color_radio_btn_size = 0x7f05007d;
+        public static final int video_danmaku_input_options_color_radio_btn_width = 0x7f05007e;
+        public static final int video_danmaku_input_options_height = 0x7f05007f;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int video_ic_battery = 0x7f0600dc;
-        public static final int video_ic_battery_charging = 0x7f0600dd;
-        public static final int video_ic_battery_red = 0x7f0600de;
-        public static final int video_ic_brightness = 0x7f0600df;
-        public static final int video_ic_fast_forward = 0x7f0600e2;
-        public static final int video_ic_fast_rewind = 0x7f0600e3;
-        public static final int video_ic_fullscreen = 0x7f0600e4;
-        public static final int video_ic_fullscreen_exit = 0x7f0600e5;
-        public static final int video_ic_play_circle = 0x7f0600e6;
-        public static final int video_ic_reload = 0x7f0600e7;
-        public static final int video_ic_video_pause = 0x7f0600e8;
-        public static final int video_ic_video_play = 0x7f0600e9;
-        public static final int video_ic_volume_off = 0x7f0600ea;
-        public static final int video_ic_volume_on = 0x7f0600eb;
-        public static final int video_layer_battery_progress = 0x7f0600ec;
-        public static final int video_layer_seek_progress = 0x7f0600ed;
-        public static final int video_sel_btn_danmaku_control = 0x7f0600ee;
-        public static final int video_sel_btn_fullscreen = 0x7f0600ef;
-        public static final int video_sel_btn_play = 0x7f0600f0;
-        public static final int video_sel_item_background = 0x7f0600f1;
-        public static final int video_shape_player_lock_bg = 0x7f0600f2;
-        public static final int video_shape_seek_ball = 0x7f0600f3;
-        public static final int video_shape_video_bg = 0x7f0600f4;
-        public static final int video_transition_item_background = 0x7f0600f5;
+        public static final int video_ic_battery = 0x7f0600d5;
+        public static final int video_ic_battery_charging = 0x7f0600d6;
+        public static final int video_ic_battery_red = 0x7f0600d7;
+        public static final int video_ic_brightness = 0x7f0600d8;
+        public static final int video_ic_fast_forward = 0x7f0600db;
+        public static final int video_ic_fast_rewind = 0x7f0600dc;
+        public static final int video_ic_fullscreen = 0x7f0600dd;
+        public static final int video_ic_fullscreen_exit = 0x7f0600de;
+        public static final int video_ic_play_circle = 0x7f0600df;
+        public static final int video_ic_reload = 0x7f0600e0;
+        public static final int video_ic_video_pause = 0x7f0600e1;
+        public static final int video_ic_video_play = 0x7f0600e2;
+        public static final int video_ic_volume_off = 0x7f0600e3;
+        public static final int video_ic_volume_on = 0x7f0600e4;
+        public static final int video_layer_battery_progress = 0x7f0600e5;
+        public static final int video_layer_seek_progress = 0x7f0600e6;
+        public static final int video_sel_btn_danmaku_control = 0x7f0600e7;
+        public static final int video_sel_btn_fullscreen = 0x7f0600e8;
+        public static final int video_sel_btn_play = 0x7f0600e9;
+        public static final int video_sel_item_background = 0x7f0600ea;
+        public static final int video_shape_player_lock_bg = 0x7f0600eb;
+        public static final int video_shape_seek_ball = 0x7f0600ec;
+        public static final int video_shape_video_bg = 0x7f0600ed;
+        public static final int video_transition_item_background = 0x7f0600ee;
     }
     public static final class id {
         private id() {}
 
-        public static final int fl_reload_layout = 0x7f070084;
-        public static final int fl_touch_layout = 0x7f070085;
-        public static final int fl_video_box = 0x7f070086;
-        public static final int iv_danmaku_control = 0x7f0700d9;
-        public static final int iv_fullscreen = 0x7f0700da;
-        public static final int iv_play = 0x7f0700dc;
-        public static final int iv_play_circle = 0x7f0700de;
-        public static final int iv_thumb = 0x7f0700df;
-        public static final int ll_bottom_bar = 0x7f0700e6;
-        public static final int pb_loading = 0x7f0700ff;
-        public static final int player_seek = 0x7f070103;
-        public static final int sv_danmaku = 0x7f07014f;
-        public static final int tv_brightness = 0x7f07016a;
-        public static final int tv_cur_time = 0x7f07016b;
-        public static final int tv_end_time = 0x7f07016c;
-        public static final int tv_fast_forward = 0x7f07016d;
-        public static final int tv_fast_rewind = 0x7f07016e;
-        public static final int tv_recover_screen = 0x7f07016f;
-        public static final int tv_reload = 0x7f070170;
-        public static final int tv_volume = 0x7f070172;
-        public static final int video_view = 0x7f070179;
+        public static final int fl_reload_layout = 0x7f07007c;
+        public static final int fl_touch_layout = 0x7f07007d;
+        public static final int fl_video_box = 0x7f07007e;
+        public static final int iv_danmaku_control = 0x7f0700ce;
+        public static final int iv_fullscreen = 0x7f0700cf;
+        public static final int iv_play = 0x7f0700d1;
+        public static final int iv_play_circle = 0x7f0700d3;
+        public static final int iv_thumb = 0x7f0700d4;
+        public static final int ll_bottom_bar = 0x7f0700db;
+        public static final int pb_loading = 0x7f0700f3;
+        public static final int player_seek = 0x7f0700f7;
+        public static final int sv_danmaku = 0x7f070133;
+        public static final int tv_brightness = 0x7f07014b;
+        public static final int tv_cur_time = 0x7f07014c;
+        public static final int tv_end_time = 0x7f07014d;
+        public static final int tv_fast_forward = 0x7f07014e;
+        public static final int tv_fast_rewind = 0x7f07014f;
+        public static final int tv_recover_screen = 0x7f070150;
+        public static final int tv_reload = 0x7f070151;
+        public static final int tv_volume = 0x7f070153;
+        public static final int video_view = 0x7f070158;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int video_layout_bottom_bar = 0x7f090058;
-        public static final int video_layout_player_view = 0x7f090059;
-        public static final int video_layout_touch_gestures = 0x7f09005a;
+        public static final int video_layout_bottom_bar = 0x7f090052;
+        public static final int video_layout_player_view = 0x7f090053;
+        public static final int video_layout_touch_gestures = 0x7f090054;
     }
     public static final class style {
         private style() {}

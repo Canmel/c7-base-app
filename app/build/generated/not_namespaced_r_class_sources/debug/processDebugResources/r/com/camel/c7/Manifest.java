@@ -10,14 +10,6 @@ package com.camel.c7;
 public final class Manifest {
   public static final class permission {
     public static final String integrate="getui.permission.GetuiService.com.HBuilder.integrate";
-    public static final String c7="getui.permission.GetuiService.com.camel.c7";
-    public static final String MIPUSH_RECEIVE="com.camel.c7.permission.MIPUSH_RECEIVE";
-    public static final String MESSAGE="com.camel.c7.push.permission.MESSAGE";
-    public static final String C2D_MESSAGE="com.camel.c7.permission.C2D_MESSAGE";
-    /**
-     * 接收PUSH TOKEN的广播以及PUSH消息需要定义该权限
-     */
-    public static final String PROCESS_PUSH_MSG="com.camel.c7.permission.PROCESS_PUSH_MSG";
   }
 
 }

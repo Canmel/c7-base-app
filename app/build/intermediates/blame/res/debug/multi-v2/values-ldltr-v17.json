@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/baily/code/c7-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v17/values-ldltr-v17.xml",
+            "outputFile": "/Users/baily/Downloads/Android-SDK@2.3.7.70461_20191024/HBuilder-Hello/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v17/values-ldltr-v17.xml",
             "map": [
                 {
-                    "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/uniapp-release.aar/9df12031c06150b8f48341d7a02efb7f/res/values-ldltr-v17/values-ldltr-v17.xml",
+                    "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/uniapp-release.aar/10810fcc1c3f52d4ea11d816e973b676/res/values-ldltr-v17/values-ldltr-v17.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

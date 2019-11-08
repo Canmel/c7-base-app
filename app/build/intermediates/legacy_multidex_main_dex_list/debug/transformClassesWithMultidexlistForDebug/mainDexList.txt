@@ -143,10 +143,10 @@ com/alipay/mobile/framework/service/annotation/OperationType.class
 com/alipay/mobile/framework/service/annotation/ResetCookie.class
 com/alipay/mobile/framework/service/annotation/UpdateDeviceInfo.class
 com/alipay/sdk/util/annotation/a.class
-com/amap/api/mapcore/util/hu.class
-com/amap/api/mapcore/util/hv.class
-com/amap/api/services/a/cf.class
-com/amap/api/services/a/cg.class
+com/amap/api/mapcore/util/hz.class
+com/amap/api/mapcore/util/ia.class
+com/amap/api/services/a/ch.class
+com/amap/api/services/a/ci.class
 com/bumptech/glide/annotation/Excludes.class
 com/bumptech/glide/annotation/GlideExtension.class
 com/bumptech/glide/annotation/GlideModule.class
@@ -469,8 +469,6 @@ com/facebook/widget/text/span/BetterImageSpan$BetterImageSpanAlignment.class
 com/googlecode/mp4parser/annotations/DoNotParseDetail.class
 com/googlecode/mp4parser/annotations/ParseDetail.class
 com/googlecode/mp4parser/boxes/mp4/objectdescriptors/Descriptor.class
-com/huawei/hms/core/aidl/a/a.class
-com/huawei/updatesdk/sdk/service/download/bean/c.class
 com/loc/ao.class
 com/loc/ap.class
 com/nostra13/dcloudimageloader/cache/disc/DiscCacheAware.class
@@ -491,7 +489,6 @@ com/taobao/weex/ui/view/refresh/circlebar/MaterialProgressDrawable$ProgressDrawa
 com/taobao/weex/utils/WXViewUtils$Opacity.class
 com/tencent/ijk/media/player/annotations/AccessedByNative.class
 com/tencent/ijk/media/player/annotations/CalledByNative.class
-com/vivo/push/NoPorGuard.class
 io/dcloud/EntryProxy.class
 io/dcloud/PdrR.class
 io/dcloud/RInformation.class
@@ -659,6 +656,7 @@ io/dcloud/common/util/NetTool.class
 io/dcloud/common/util/NetworkTypeUtil.class
 io/dcloud/common/util/PdrUtil$1.class
 io/dcloud/common/util/PdrUtil.class
+io/dcloud/common/util/ReflectUtils.class
 io/dcloud/common/util/RuningAcitvityUtil.class
 io/dcloud/common/util/ShortCutUtil.class
 io/dcloud/common/util/StringUtil.class

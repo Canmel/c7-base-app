@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
     package="com.camel.c7">
 
     <!-- Barcode(二维码)  begin -->
@@ -353,7 +354,7 @@
             android:value="wx0411fa6a39d61297" />
 
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.camel.c7.WXEntryActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTop">
@@ -369,7 +370,7 @@
 
         <!-- 微信支付配置 start -->
         <activity
-            android:name=".wxapi.WXPayEntryActivity"
+            android:name="com.camel.c7.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop" />
 
@@ -411,7 +412,7 @@
             android:permission="android.permission.BIND_JOB_SERVICE"
             android:process=":pushservice" />
         <service
-            android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission="" 
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:permission=""
             android:enabled="true"
             android:exported="true" />
         <service
@@ -436,7 +437,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="io.dcloud.feature.apsXm.XMMessageReceiver" android:permission="" 
+            android:name="io.dcloud.feature.apsXm.XMMessageReceiver" android:permission=""
             android:exported="true">
             <intent-filter>
                 <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />

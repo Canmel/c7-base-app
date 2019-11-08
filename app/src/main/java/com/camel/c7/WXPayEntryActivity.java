@@ -1,4 +1,4 @@
-package io.dcloud.HBuilder.wxapi;
+package com.camel.c7;
 
 import io.dcloud.feature.payment.weixin.AbsWXPayCallbackActivity;
 

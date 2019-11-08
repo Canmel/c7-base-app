@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/baily/code/c7-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/baily/Downloads/Android-SDK@2.3.7.70461_20191024/HBuilder-Hello/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06a436ad8d5b1f28cf7900a5011f1ad2/res/values-v24/values-v24.xml",

@@ -322,7 +322,6 @@ public final class R {
      */
     public static final int activityChooserViewStyle=0x7f020025;
     /**
-     * An image reference
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -330,7 +329,6 @@ public final class R {
      */
     public static final int actualImageResource=0x7f020026;
     /**
-     * Scale type of the actual image.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -351,7 +349,6 @@ public final class R {
      */
     public static final int actualImageScaleType=0x7f020027;
     /**
-     * An image uri .
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -424,7 +421,6 @@ public final class R {
      */
     public static final int arrowShaftLength=0x7f020031;
     /**
-     * 是否加载完自动播放
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -487,7 +483,6 @@ public final class R {
      */
     public static final int background=0x7f020039;
     /**
-     * A drawable or color to be used as a background.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1065,12 +1060,10 @@ public final class R {
      */
     public static final int expandActivityOverflowButtonDrawable=0x7f020083;
     /**
-     * Fade duration in milliseconds.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fadeDuration=0x7f020084;
     /**
-     * A drawable to be be used as a failure image.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1078,7 +1071,6 @@ public final class R {
      */
     public static final int failureImage=0x7f020085;
     /**
-     * Scale type of the failure image. Ignored if failureImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1228,7 +1220,6 @@ public final class R {
      */
     public static final int gifSource=0x7f020098;
     /**
-     * gif文件引用
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1917,7 +1908,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -2161,7 +2152,6 @@ public final class R {
      */
     public static final int overlapAnchor=0x7f020100;
     /**
-     * A drawable or color to be used as an overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2223,7 +2213,6 @@ public final class R {
      */
     public static final int panelMenuListWidth=0x7f020108;
     /**
-     * A drawable or color to be be used as a placeholder.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2231,7 +2220,6 @@ public final class R {
      */
     public static final int placeholderImage=0x7f020109;
     /**
-     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2252,7 +2240,6 @@ public final class R {
      */
     public static final int placeholderImageScaleType=0x7f02010a;
     /**
-     * 播放次放，默认永远播放
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int playCount=0x7f02010b;
@@ -2283,7 +2270,6 @@ public final class R {
      */
     public static final int preserveIconSpacing=0x7f02010f;
     /**
-     * A drawable or color to be used as a pressed-state-overlay
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2291,12 +2277,10 @@ public final class R {
      */
     public static final int pressedStateOverlayImage=0x7f020110;
     /**
-     * Progress bar Auto Rotate interval in milliseconds
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int progressBarAutoRotateInterval=0x7f020111;
     /**
-     * A drawable to be be used as a progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2304,7 +2288,6 @@ public final class R {
      */
     public static final int progressBarImage=0x7f020112;
     /**
-     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2380,7 +2363,6 @@ public final class R {
      */
     public static final int ratingBarStyleSmall=0x7f02011b;
     /**
-     * A drawable to be be used as a retry image.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2388,7 +2370,6 @@ public final class R {
      */
     public static final int retryImage=0x7f02011c;
     /**
-     * Scale type of the retry image. Ignored if retryImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2414,68 +2395,57 @@ public final class R {
      */
     public static final int reverseLayout=0x7f02011e;
     /**
-     * Round as circle.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundAsCircle=0x7f02011f;
     /**
-     * Round the bottom-end edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomEnd=0x7f020120;
     /**
-     * Round the bottom-left corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomLeft=0x7f020121;
     /**
-     * Round the bottom-right corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomRight=0x7f020122;
     /**
-     * Round the bottom-start edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomStart=0x7f020123;
     /**
-     * Round the top-end edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopEnd=0x7f020124;
     /**
-     * Round the top-left corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopLeft=0x7f020125;
     /**
-     * Round the top-right corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopRight=0x7f020126;
     /**
-     * Round the top-start edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopStart=0x7f020127;
     /**
-     * Round by overlying color.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int roundWithOverlayColor=0x7f020128;
     /**
-     * Rounded corner radius. Ignored if roundAsCircle is used.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2484,14 +2454,12 @@ public final class R {
      */
     public static final int roundedCornerRadius=0x7f020129;
     /**
-     * Rounding border color
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int roundingBorderColor=0x7f02012a;
     /**
-     * Rounding border padding
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2500,7 +2468,6 @@ public final class R {
      */
     public static final int roundingBorderPadding=0x7f02012b;
     /**
-     * Rounding border width
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3242,7 +3209,6 @@ public final class R {
      */
     public static final int trackTintMode=0x7f020185;
     /**
-     * Aspect ratio (width / height) of the view, not necessarily of the images.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int viewAspectRatio=0x7f020186;
@@ -3401,68 +3367,62 @@ public final class R {
     public static final int dim_foreground_material_dark=0x7f04002b;
     public static final int dim_foreground_material_light=0x7f04002c;
     public static final int e4e4e4=0x7f04002d;
-    public static final int emui_color_gray_1=0x7f04002e;
-    public static final int emui_color_gray_10=0x7f04002f;
-    public static final int emui_color_gray_7=0x7f040030;
-    public static final int error_color_material=0x7f040031;
-    public static final int ffffff=0x7f040032;
-    public static final int foreground_material_dark=0x7f040033;
-    public static final int foreground_material_light=0x7f040034;
-    public static final int highlighted_text_material_dark=0x7f040035;
-    public static final int highlighted_text_material_light=0x7f040036;
-    public static final int image_pick_title_btn_normal=0x7f040037;
-    public static final int image_pick_title_btn_pressed=0x7f040038;
-    public static final int ime_background=0x7f040039;
-    public static final int material_blue_grey_800=0x7f04003a;
-    public static final int material_blue_grey_900=0x7f04003b;
-    public static final int material_blue_grey_950=0x7f04003c;
-    public static final int material_deep_teal_200=0x7f04003d;
-    public static final int material_deep_teal_500=0x7f04003e;
-    public static final int material_grey_100=0x7f04003f;
-    public static final int material_grey_300=0x7f040040;
-    public static final int material_grey_50=0x7f040041;
-    public static final int material_grey_600=0x7f040042;
-    public static final int material_grey_800=0x7f040043;
-    public static final int material_grey_850=0x7f040044;
-    public static final int material_grey_900=0x7f040045;
-    public static final int notification_action_color_filter=0x7f040046;
-    public static final int notification_icon_bg_color=0x7f040047;
-    public static final int notification_material_background_media_default_color=0x7f040048;
-    public static final int primary_dark_material_dark=0x7f040049;
-    public static final int primary_dark_material_light=0x7f04004a;
-    public static final int primary_material_dark=0x7f04004b;
-    public static final int primary_material_light=0x7f04004c;
-    public static final int primary_text_default_material_dark=0x7f04004d;
-    public static final int primary_text_default_material_light=0x7f04004e;
-    public static final int primary_text_disabled_material_dark=0x7f04004f;
-    public static final int primary_text_disabled_material_light=0x7f040050;
-    public static final int ripple_material_dark=0x7f040051;
-    public static final int ripple_material_light=0x7f040052;
-    public static final int secondary_text_default_material_dark=0x7f040053;
-    public static final int secondary_text_default_material_light=0x7f040054;
-    public static final int secondary_text_disabled_material_dark=0x7f040055;
-    public static final int secondary_text_disabled_material_light=0x7f040056;
-    public static final int switch_thumb_disabled_material_dark=0x7f040057;
-    public static final int switch_thumb_disabled_material_light=0x7f040058;
-    public static final int switch_thumb_material_dark=0x7f040059;
-    public static final int switch_thumb_material_light=0x7f04005a;
-    public static final int switch_thumb_normal_material_dark=0x7f04005b;
-    public static final int switch_thumb_normal_material_light=0x7f04005c;
-    public static final int tooltip_background_dark=0x7f04005d;
-    public static final int tooltip_background_light=0x7f04005e;
-    public static final int upsdk_blue_text_007dff=0x7f04005f;
-    public static final int upsdk_category_button_select_pressed=0x7f040060;
-    public static final int upsdk_white=0x7f040061;
-    public static final int video_background_gray=0x7f040062;
-    public static final int video_background_gray_light=0x7f040063;
-    public static final int video_bg_video_view=0x7f040064;
-    public static final int video_btn_danmaku_control_color=0x7f040065;
-    public static final int video_recover_screen_text=0x7f040066;
-    public static final int video_seek_background=0x7f040067;
-    public static final int video_seek_ball=0x7f040068;
-    public static final int video_seek_progress=0x7f040069;
-    public static final int video_seek_secondary_progress=0x7f04006a;
-    public static final int weex_video_btn_danmaku_control_color=0x7f04006b;
+    public static final int error_color_material=0x7f04002e;
+    public static final int ffffff=0x7f04002f;
+    public static final int foreground_material_dark=0x7f040030;
+    public static final int foreground_material_light=0x7f040031;
+    public static final int highlighted_text_material_dark=0x7f040032;
+    public static final int highlighted_text_material_light=0x7f040033;
+    public static final int image_pick_title_btn_normal=0x7f040034;
+    public static final int image_pick_title_btn_pressed=0x7f040035;
+    public static final int ime_background=0x7f040036;
+    public static final int material_blue_grey_800=0x7f040037;
+    public static final int material_blue_grey_900=0x7f040038;
+    public static final int material_blue_grey_950=0x7f040039;
+    public static final int material_deep_teal_200=0x7f04003a;
+    public static final int material_deep_teal_500=0x7f04003b;
+    public static final int material_grey_100=0x7f04003c;
+    public static final int material_grey_300=0x7f04003d;
+    public static final int material_grey_50=0x7f04003e;
+    public static final int material_grey_600=0x7f04003f;
+    public static final int material_grey_800=0x7f040040;
+    public static final int material_grey_850=0x7f040041;
+    public static final int material_grey_900=0x7f040042;
+    public static final int notification_action_color_filter=0x7f040043;
+    public static final int notification_icon_bg_color=0x7f040044;
+    public static final int notification_material_background_media_default_color=0x7f040045;
+    public static final int primary_dark_material_dark=0x7f040046;
+    public static final int primary_dark_material_light=0x7f040047;
+    public static final int primary_material_dark=0x7f040048;
+    public static final int primary_material_light=0x7f040049;
+    public static final int primary_text_default_material_dark=0x7f04004a;
+    public static final int primary_text_default_material_light=0x7f04004b;
+    public static final int primary_text_disabled_material_dark=0x7f04004c;
+    public static final int primary_text_disabled_material_light=0x7f04004d;
+    public static final int ripple_material_dark=0x7f04004e;
+    public static final int ripple_material_light=0x7f04004f;
+    public static final int secondary_text_default_material_dark=0x7f040050;
+    public static final int secondary_text_default_material_light=0x7f040051;
+    public static final int secondary_text_disabled_material_dark=0x7f040052;
+    public static final int secondary_text_disabled_material_light=0x7f040053;
+    public static final int switch_thumb_disabled_material_dark=0x7f040054;
+    public static final int switch_thumb_disabled_material_light=0x7f040055;
+    public static final int switch_thumb_material_dark=0x7f040056;
+    public static final int switch_thumb_material_light=0x7f040057;
+    public static final int switch_thumb_normal_material_dark=0x7f040058;
+    public static final int switch_thumb_normal_material_light=0x7f040059;
+    public static final int tooltip_background_dark=0x7f04005a;
+    public static final int tooltip_background_light=0x7f04005b;
+    public static final int video_background_gray=0x7f04005c;
+    public static final int video_background_gray_light=0x7f04005d;
+    public static final int video_bg_video_view=0x7f04005e;
+    public static final int video_btn_danmaku_control_color=0x7f04005f;
+    public static final int video_recover_screen_text=0x7f040060;
+    public static final int video_seek_background=0x7f040061;
+    public static final int video_seek_ball=0x7f040062;
+    public static final int video_seek_progress=0x7f040063;
+    public static final int video_seek_secondary_progress=0x7f040064;
+    public static final int weex_video_btn_danmaku_control_color=0x7f040065;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -3549,55 +3509,50 @@ public final class R {
     public static final int dcloud_wel_base_content_text_min_size=0x7f050051;
     public static final int disabled_alpha_material_dark=0x7f050052;
     public static final int disabled_alpha_material_light=0x7f050053;
-    public static final int emui_master_body_2=0x7f050054;
-    public static final int emui_master_subtitle=0x7f050055;
-    public static final int fastscroll_default_thickness=0x7f050056;
-    public static final int fastscroll_margin=0x7f050057;
-    public static final int fastscroll_minimum_range=0x7f050058;
-    public static final int highlight_alpha_material_colored=0x7f050059;
-    public static final int highlight_alpha_material_dark=0x7f05005a;
-    public static final int highlight_alpha_material_light=0x7f05005b;
-    public static final int hint_alpha_material_dark=0x7f05005c;
-    public static final int hint_alpha_material_light=0x7f05005d;
-    public static final int hint_pressed_alpha_material_dark=0x7f05005e;
-    public static final int hint_pressed_alpha_material_light=0x7f05005f;
-    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f050060;
-    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f050061;
-    public static final int item_touch_helper_swipe_escape_velocity=0x7f050062;
-    public static final int margin_l=0x7f050063;
-    public static final int margin_m=0x7f050064;
-    public static final int margin_xs=0x7f050065;
-    public static final int notification_action_icon_size=0x7f050066;
-    public static final int notification_action_text_size=0x7f050067;
-    public static final int notification_big_circle_margin=0x7f050068;
-    public static final int notification_content_margin_start=0x7f050069;
-    public static final int notification_large_icon_height=0x7f05006a;
-    public static final int notification_large_icon_width=0x7f05006b;
-    public static final int notification_main_column_padding_top=0x7f05006c;
-    public static final int notification_media_narrow_margin=0x7f05006d;
-    public static final int notification_right_icon_size=0x7f05006e;
-    public static final int notification_right_side_padding_top=0x7f05006f;
-    public static final int notification_small_icon_background_padding=0x7f050070;
-    public static final int notification_small_icon_size_as_large=0x7f050071;
-    public static final int notification_subtext_size=0x7f050072;
-    public static final int notification_top_pad=0x7f050073;
-    public static final int notification_top_pad_large_text=0x7f050074;
-    public static final int tooltip_corner_radius=0x7f050075;
-    public static final int tooltip_horizontal_padding=0x7f050076;
-    public static final int tooltip_margin=0x7f050077;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f050078;
-    public static final int tooltip_precise_anchor_threshold=0x7f050079;
-    public static final int tooltip_vertical_padding=0x7f05007a;
-    public static final int tooltip_y_offset_non_touch=0x7f05007b;
-    public static final int tooltip_y_offset_touch=0x7f05007c;
-    public static final int video_aspect_btn_height=0x7f05007d;
-    public static final int video_aspect_btn_size=0x7f05007e;
-    public static final int video_control_bar_height=0x7f05007f;
-    public static final int video_danmaku_input_options_color_radio_btn_height=0x7f050080;
-    public static final int video_danmaku_input_options_color_radio_btn_margin=0x7f050081;
-    public static final int video_danmaku_input_options_color_radio_btn_size=0x7f050082;
-    public static final int video_danmaku_input_options_color_radio_btn_width=0x7f050083;
-    public static final int video_danmaku_input_options_height=0x7f050084;
+    public static final int fastscroll_default_thickness=0x7f050054;
+    public static final int fastscroll_margin=0x7f050055;
+    public static final int fastscroll_minimum_range=0x7f050056;
+    public static final int highlight_alpha_material_colored=0x7f050057;
+    public static final int highlight_alpha_material_dark=0x7f050058;
+    public static final int highlight_alpha_material_light=0x7f050059;
+    public static final int hint_alpha_material_dark=0x7f05005a;
+    public static final int hint_alpha_material_light=0x7f05005b;
+    public static final int hint_pressed_alpha_material_dark=0x7f05005c;
+    public static final int hint_pressed_alpha_material_light=0x7f05005d;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f05005e;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f05005f;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f050060;
+    public static final int notification_action_icon_size=0x7f050061;
+    public static final int notification_action_text_size=0x7f050062;
+    public static final int notification_big_circle_margin=0x7f050063;
+    public static final int notification_content_margin_start=0x7f050064;
+    public static final int notification_large_icon_height=0x7f050065;
+    public static final int notification_large_icon_width=0x7f050066;
+    public static final int notification_main_column_padding_top=0x7f050067;
+    public static final int notification_media_narrow_margin=0x7f050068;
+    public static final int notification_right_icon_size=0x7f050069;
+    public static final int notification_right_side_padding_top=0x7f05006a;
+    public static final int notification_small_icon_background_padding=0x7f05006b;
+    public static final int notification_small_icon_size_as_large=0x7f05006c;
+    public static final int notification_subtext_size=0x7f05006d;
+    public static final int notification_top_pad=0x7f05006e;
+    public static final int notification_top_pad_large_text=0x7f05006f;
+    public static final int tooltip_corner_radius=0x7f050070;
+    public static final int tooltip_horizontal_padding=0x7f050071;
+    public static final int tooltip_margin=0x7f050072;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f050073;
+    public static final int tooltip_precise_anchor_threshold=0x7f050074;
+    public static final int tooltip_vertical_padding=0x7f050075;
+    public static final int tooltip_y_offset_non_touch=0x7f050076;
+    public static final int tooltip_y_offset_touch=0x7f050077;
+    public static final int video_aspect_btn_height=0x7f050078;
+    public static final int video_aspect_btn_size=0x7f050079;
+    public static final int video_control_bar_height=0x7f05007a;
+    public static final int video_danmaku_input_options_color_radio_btn_height=0x7f05007b;
+    public static final int video_danmaku_input_options_color_radio_btn_margin=0x7f05007c;
+    public static final int video_danmaku_input_options_color_radio_btn_size=0x7f05007d;
+    public static final int video_danmaku_input_options_color_radio_btn_width=0x7f05007e;
+    public static final int video_danmaku_input_options_height=0x7f05007f;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f060000;
@@ -3776,98 +3731,91 @@ public final class R {
     public static final int default_ptr_rotate=0x7f0600ad;
     public static final int icon=0x7f0600ae;
     public static final int logo=0x7f0600af;
-    public static final int mz_push_notification_small_icon=0x7f0600b0;
-    public static final int notification_action_background=0x7f0600b1;
-    public static final int notification_bg=0x7f0600b2;
-    public static final int notification_bg_low=0x7f0600b3;
-    public static final int notification_bg_low_normal=0x7f0600b4;
-    public static final int notification_bg_low_pressed=0x7f0600b5;
-    public static final int notification_bg_normal=0x7f0600b6;
-    public static final int notification_bg_normal_pressed=0x7f0600b7;
-    public static final int notification_icon_background=0x7f0600b8;
-    public static final int notification_template_icon_bg=0x7f0600b9;
-    public static final int notification_template_icon_low_bg=0x7f0600ba;
-    public static final int notification_tile_bg=0x7f0600bb;
-    public static final int notify_panel_notification_icon_bg=0x7f0600bc;
-    public static final int offline_pin=0x7f0600bd;
-    public static final int offline_pin_round=0x7f0600be;
-    public static final int push=0x7f0600bf;
-    public static final int retry_btn_default=0x7f0600c0;
-    public static final int retry_btn_press=0x7f0600c1;
-    public static final int retry_btn_selector=0x7f0600c2;
-    public static final int shortcut_permission_guide_bg=0x7f0600c3;
-    public static final int shortcut_permission_guide_close=0x7f0600c4;
-    public static final int shortcut_permission_guide_play=0x7f0600c5;
-    public static final int side_bar_bg=0x7f0600c6;
-    public static final int side_bar_close=0x7f0600c7;
-    public static final int side_bar_closebar=0x7f0600c8;
-    public static final int side_bar_custom_menu_item_bg=0x7f0600c9;
-    public static final int side_bar_custom_menu_item_line=0x7f0600ca;
-    public static final int side_bar_custom_menu_item_selected=0x7f0600cb;
-    public static final int side_bar_favorite=0x7f0600cc;
-    public static final int side_bar_home=0x7f0600cd;
-    public static final int side_bar_openbar=0x7f0600ce;
-    public static final int side_bar_refresh=0x7f0600cf;
-    public static final int side_bar_share=0x7f0600d0;
-    public static final int sidebar_shortcut=0x7f0600d1;
-    public static final int splash=0x7f0600d2;
+    public static final int notification_action_background=0x7f0600b0;
+    public static final int notification_bg=0x7f0600b1;
+    public static final int notification_bg_low=0x7f0600b2;
+    public static final int notification_bg_low_normal=0x7f0600b3;
+    public static final int notification_bg_low_pressed=0x7f0600b4;
+    public static final int notification_bg_normal=0x7f0600b5;
+    public static final int notification_bg_normal_pressed=0x7f0600b6;
+    public static final int notification_icon_background=0x7f0600b7;
+    public static final int notification_template_icon_bg=0x7f0600b8;
+    public static final int notification_template_icon_low_bg=0x7f0600b9;
+    public static final int notification_tile_bg=0x7f0600ba;
+    public static final int notify_panel_notification_icon_bg=0x7f0600bb;
+    public static final int offline_pin=0x7f0600bc;
+    public static final int offline_pin_round=0x7f0600bd;
+    public static final int push=0x7f0600be;
+    public static final int retry_btn_default=0x7f0600bf;
+    public static final int retry_btn_press=0x7f0600c0;
+    public static final int retry_btn_selector=0x7f0600c1;
+    public static final int shortcut_permission_guide_bg=0x7f0600c2;
+    public static final int shortcut_permission_guide_close=0x7f0600c3;
+    public static final int shortcut_permission_guide_play=0x7f0600c4;
+    public static final int side_bar_bg=0x7f0600c5;
+    public static final int side_bar_close=0x7f0600c6;
+    public static final int side_bar_closebar=0x7f0600c7;
+    public static final int side_bar_custom_menu_item_bg=0x7f0600c8;
+    public static final int side_bar_custom_menu_item_line=0x7f0600c9;
+    public static final int side_bar_custom_menu_item_selected=0x7f0600ca;
+    public static final int side_bar_favorite=0x7f0600cb;
+    public static final int side_bar_home=0x7f0600cc;
+    public static final int side_bar_openbar=0x7f0600cd;
+    public static final int side_bar_refresh=0x7f0600ce;
+    public static final int side_bar_share=0x7f0600cf;
+    public static final int sidebar_shortcut=0x7f0600d0;
+    public static final int splash=0x7f0600d1;
+    public static final int toast_bg=0x7f0600d2;
     public static final int tooltip_frame_dark=0x7f0600d3;
     public static final int tooltip_frame_light=0x7f0600d4;
-    public static final int upsdk_btn_emphasis_normal_layer=0x7f0600d5;
-    public static final int upsdk_cancel_bg=0x7f0600d6;
-    public static final int upsdk_cancel_normal=0x7f0600d7;
-    public static final int upsdk_cancel_pressed=0x7f0600d8;
-    public static final int upsdk_cancel_pressed_bg=0x7f0600d9;
-    public static final int upsdk_third_download_bg=0x7f0600da;
-    public static final int upsdk_update_all_button=0x7f0600db;
-    public static final int video_ic_battery=0x7f0600dc;
-    public static final int video_ic_battery_charging=0x7f0600dd;
-    public static final int video_ic_battery_red=0x7f0600de;
-    public static final int video_ic_brightness=0x7f0600df;
-    public static final int video_ic_center_pause=0x7f0600e0;
-    public static final int video_ic_center_play=0x7f0600e1;
-    public static final int video_ic_fast_forward=0x7f0600e2;
-    public static final int video_ic_fast_rewind=0x7f0600e3;
-    public static final int video_ic_fullscreen=0x7f0600e4;
-    public static final int video_ic_fullscreen_exit=0x7f0600e5;
-    public static final int video_ic_play_circle=0x7f0600e6;
-    public static final int video_ic_reload=0x7f0600e7;
-    public static final int video_ic_video_pause=0x7f0600e8;
-    public static final int video_ic_video_play=0x7f0600e9;
-    public static final int video_ic_volume_off=0x7f0600ea;
-    public static final int video_ic_volume_on=0x7f0600eb;
-    public static final int video_layer_battery_progress=0x7f0600ec;
-    public static final int video_layer_seek_progress=0x7f0600ed;
-    public static final int video_sel_btn_danmaku_control=0x7f0600ee;
-    public static final int video_sel_btn_fullscreen=0x7f0600ef;
-    public static final int video_sel_btn_play=0x7f0600f0;
-    public static final int video_sel_item_background=0x7f0600f1;
-    public static final int video_shape_player_lock_bg=0x7f0600f2;
-    public static final int video_shape_seek_ball=0x7f0600f3;
-    public static final int video_shape_video_bg=0x7f0600f4;
-    public static final int video_transition_item_background=0x7f0600f5;
-    public static final int voice_dialog_voice_icon=0x7f0600f6;
-    public static final int weex_error=0x7f0600f7;
-    public static final int weex_video_ic_fullscreen=0x7f0600f8;
-    public static final int weex_video_ic_fullscreen_exit=0x7f0600f9;
-    public static final int weex_video_ic_muteoff=0x7f0600fa;
-    public static final int weex_video_ic_muteon=0x7f0600fb;
-    public static final int weex_video_ic_return_back=0x7f0600fc;
-    public static final int weex_video_ic_video_pause=0x7f0600fd;
-    public static final int weex_video_ic_video_play=0x7f0600fe;
-    public static final int weex_video_ic_volume_off=0x7f0600ff;
-    public static final int weex_video_ic_volume_on=0x7f060100;
-    public static final int weex_video_layer_battery_progress=0x7f060101;
-    public static final int weex_video_layer_seek_progress=0x7f060102;
-    public static final int weex_video_sel_btn_center_play=0x7f060103;
-    public static final int weex_video_sel_btn_danmaku_control=0x7f060104;
-    public static final int weex_video_sel_btn_fullscreen=0x7f060105;
-    public static final int weex_video_sel_btn_mute=0x7f060106;
-    public static final int weex_video_sel_btn_play=0x7f060107;
-    public static final int weex_video_shape_seek_ball=0x7f060108;
-    public static final int weex_video_shape_video_bg=0x7f060109;
-    public static final int weibosdk_common_shadow_top=0x7f06010a;
-    public static final int weibosdk_empty_failed=0x7f06010b;
+    public static final int video_ic_battery=0x7f0600d5;
+    public static final int video_ic_battery_charging=0x7f0600d6;
+    public static final int video_ic_battery_red=0x7f0600d7;
+    public static final int video_ic_brightness=0x7f0600d8;
+    public static final int video_ic_center_pause=0x7f0600d9;
+    public static final int video_ic_center_play=0x7f0600da;
+    public static final int video_ic_fast_forward=0x7f0600db;
+    public static final int video_ic_fast_rewind=0x7f0600dc;
+    public static final int video_ic_fullscreen=0x7f0600dd;
+    public static final int video_ic_fullscreen_exit=0x7f0600de;
+    public static final int video_ic_play_circle=0x7f0600df;
+    public static final int video_ic_reload=0x7f0600e0;
+    public static final int video_ic_video_pause=0x7f0600e1;
+    public static final int video_ic_video_play=0x7f0600e2;
+    public static final int video_ic_volume_off=0x7f0600e3;
+    public static final int video_ic_volume_on=0x7f0600e4;
+    public static final int video_layer_battery_progress=0x7f0600e5;
+    public static final int video_layer_seek_progress=0x7f0600e6;
+    public static final int video_sel_btn_danmaku_control=0x7f0600e7;
+    public static final int video_sel_btn_fullscreen=0x7f0600e8;
+    public static final int video_sel_btn_play=0x7f0600e9;
+    public static final int video_sel_item_background=0x7f0600ea;
+    public static final int video_shape_player_lock_bg=0x7f0600eb;
+    public static final int video_shape_seek_ball=0x7f0600ec;
+    public static final int video_shape_video_bg=0x7f0600ed;
+    public static final int video_transition_item_background=0x7f0600ee;
+    public static final int voice_dialog_voice_icon=0x7f0600ef;
+    public static final int weex_error=0x7f0600f0;
+    public static final int weex_video_ic_fullscreen=0x7f0600f1;
+    public static final int weex_video_ic_fullscreen_exit=0x7f0600f2;
+    public static final int weex_video_ic_muteoff=0x7f0600f3;
+    public static final int weex_video_ic_muteon=0x7f0600f4;
+    public static final int weex_video_ic_return_back=0x7f0600f5;
+    public static final int weex_video_ic_video_pause=0x7f0600f6;
+    public static final int weex_video_ic_video_play=0x7f0600f7;
+    public static final int weex_video_ic_volume_off=0x7f0600f8;
+    public static final int weex_video_ic_volume_on=0x7f0600f9;
+    public static final int weex_video_layer_battery_progress=0x7f0600fa;
+    public static final int weex_video_layer_seek_progress=0x7f0600fb;
+    public static final int weex_video_sel_btn_center_play=0x7f0600fc;
+    public static final int weex_video_sel_btn_danmaku_control=0x7f0600fd;
+    public static final int weex_video_sel_btn_fullscreen=0x7f0600fe;
+    public static final int weex_video_sel_btn_mute=0x7f0600ff;
+    public static final int weex_video_sel_btn_play=0x7f060100;
+    public static final int weex_video_shape_seek_ball=0x7f060101;
+    public static final int weex_video_shape_video_bg=0x7f060102;
+    public static final int weibosdk_common_shadow_top=0x7f060103;
+    public static final int weibosdk_empty_failed=0x7f060104;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3876,388 +3824,355 @@ public final class R {
     public static final int META=0x7f070003;
     public static final int SHIFT=0x7f070004;
     public static final int SYM=0x7f070005;
-    public static final int action=0x7f070006;
-    public static final int action0=0x7f070007;
-    public static final int action_bar=0x7f070008;
-    public static final int action_bar_activity_content=0x7f070009;
-    public static final int action_bar_container=0x7f07000a;
-    public static final int action_bar_root=0x7f07000b;
-    public static final int action_bar_spinner=0x7f07000c;
-    public static final int action_bar_subtitle=0x7f07000d;
-    public static final int action_bar_title=0x7f07000e;
-    public static final int action_container=0x7f07000f;
-    public static final int action_context_bar=0x7f070010;
-    public static final int action_divider=0x7f070011;
-    public static final int action_image=0x7f070012;
-    public static final int action_menu_divider=0x7f070013;
-    public static final int action_menu_presenter=0x7f070014;
-    public static final int action_mode_bar=0x7f070015;
-    public static final int action_mode_bar_stub=0x7f070016;
-    public static final int action_mode_close_button=0x7f070017;
-    public static final int action_text=0x7f070018;
-    public static final int actions=0x7f070019;
-    public static final int activity_chooser_view_content=0x7f07001a;
-    public static final int ad_dcloud_icon=0x7f07001b;
-    public static final int ad_dcloud_icon_single=0x7f07001c;
-    public static final int ad_dcloud_main_img=0x7f07001d;
-    public static final int ad_dcloud_main_skip=0x7f07001e;
-    public static final int ad_dcloud_name=0x7f07001f;
-    public static final int ad_dcloud_root=0x7f070020;
-    public static final int ad_dcloud_splash_bottom_bar=0x7f070021;
-    public static final int ad_dcloud_splash_container=0x7f070022;
-    public static final int add=0x7f070023;
-    public static final int alertTitle=0x7f070024;
-    public static final int all=0x7f070025;
-    public static final int allsize_textview=0x7f070026;
-    public static final int always=0x7f070027;
-    public static final int appsize_textview=0x7f070028;
-    public static final int async=0x7f070029;
-    public static final int back=0x7f07002a;
-    public static final int bar_title=0x7f07002b;
-    public static final int barrier=0x7f07002c;
-    public static final int beginning=0x7f07002d;
-    public static final int blocking=0x7f07002e;
-    public static final int bottom=0x7f07002f;
-    public static final int bottom_content_layout=0x7f070030;
-    public static final int btn_back=0x7f070031;
-    public static final int buttonPanel=0x7f070032;
-    public static final int cancel=0x7f070033;
-    public static final int cancel_action=0x7f070034;
-    public static final int cancel_bg=0x7f070035;
-    public static final int cancel_imageview=0x7f070036;
-    public static final int category_btn=0x7f070037;
-    public static final int center=0x7f070038;
-    public static final int centerCrop=0x7f070039;
-    public static final int centerInside=0x7f07003a;
-    public static final int center_horizontal=0x7f07003b;
-    public static final int center_vertical=0x7f07003c;
-    public static final int chains=0x7f07003d;
-    public static final int check_image=0x7f07003e;
-    public static final int check_layout=0x7f07003f;
-    public static final int checkbox=0x7f070040;
-    public static final int chronometer=0x7f070041;
-    public static final int clip_horizontal=0x7f070042;
-    public static final int clip_vertical=0x7f070043;
-    public static final int close=0x7f070044;
-    public static final int collapseActionView=0x7f070045;
-    public static final int content=0x7f070046;
-    public static final int contentPanel=0x7f070047;
-    public static final int contentWrapper=0x7f070048;
-    public static final int content_layout=0x7f070049;
-    public static final int content_textview=0x7f07004a;
-    public static final int cover=0x7f07004b;
-    public static final int custom=0x7f07004c;
-    public static final int customLayout=0x7f07004d;
-    public static final int customPanel=0x7f07004e;
-    public static final int dcloud_dialog_btn1=0x7f07004f;
-    public static final int dcloud_dialog_btn2=0x7f070050;
-    public static final int dcloud_dialog_icon=0x7f070051;
-    public static final int dcloud_dialog_msg=0x7f070052;
-    public static final int dcloud_dialog_rootview=0x7f070053;
-    public static final int dcloud_dialog_title=0x7f070054;
-    public static final int dcloud_guide_close=0x7f070055;
-    public static final int dcloud_guide_gifview=0x7f070056;
-    public static final int dcloud_guide_play=0x7f070057;
-    public static final int dcloud_guide_play_layout=0x7f070058;
-    public static final int dcloud_guide_tip=0x7f070059;
-    public static final int dcloud_iv_loading=0x7f07005a;
-    public static final int dcloud_pb_loading=0x7f07005b;
-    public static final int dcloud_pd_root=0x7f07005c;
-    public static final int dcloud_record_address_view_1=0x7f07005d;
-    public static final int dcloud_record_address_view_2=0x7f07005e;
-    public static final int dcloud_record_address_view_3=0x7f07005f;
-    public static final int dcloud_record_arrow_left=0x7f070060;
-    public static final int dcloud_record_arrow_left_layout=0x7f070061;
-    public static final int dcloud_record_arrow_right=0x7f070062;
-    public static final int dcloud_record_arrow_right_layout=0x7f070063;
-    public static final int dcloud_record_arrows=0x7f070064;
-    public static final int dcloud_record_line_1=0x7f070065;
-    public static final int dcloud_record_line_2=0x7f070066;
-    public static final int dcloud_record_scroll_view=0x7f070067;
-    public static final int dcloud_record_view_1=0x7f070068;
-    public static final int dcloud_record_view_2=0x7f070069;
-    public static final int dcloud_tv_loading=0x7f07006a;
-    public static final int dcloud_view_seaparator=0x7f07006b;
-    public static final int debugTV=0x7f07006c;
-    public static final int decor_content_parent=0x7f07006d;
-    public static final int default_activity_button=0x7f07006e;
-    public static final int delete=0x7f07006f;
-    public static final int dimensions=0x7f070070;
-    public static final int direct=0x7f070071;
-    public static final int disableHome=0x7f070072;
-    public static final int divider=0x7f070073;
-    public static final int done=0x7f070074;
-    public static final int download_info_progress=0x7f070075;
-    public static final int edit_query=0x7f070076;
-    public static final int end=0x7f070077;
-    public static final int end_padder=0x7f070078;
-    public static final int expand_activities_button=0x7f070079;
-    public static final int expanded_menu=0x7f07007a;
-    public static final int favoriteIcon=0x7f07007b;
-    public static final int fill=0x7f07007c;
-    public static final int fill_horizontal=0x7f07007d;
-    public static final int fill_vertical=0x7f07007e;
-    public static final int fitBottomStart=0x7f07007f;
-    public static final int fitCenter=0x7f070080;
-    public static final int fitEnd=0x7f070081;
-    public static final int fitStart=0x7f070082;
-    public static final int fitXY=0x7f070083;
-    public static final int fl_reload_layout=0x7f070084;
-    public static final int fl_touch_layout=0x7f070085;
-    public static final int fl_video_box=0x7f070086;
-    public static final int focusCrop=0x7f070087;
-    public static final int footer=0x7f070088;
-    public static final int forever=0x7f070089;
-    public static final int fullscreen_top_bar=0x7f07008a;
-    public static final int getui_big_bigtext_defaultView=0x7f07008b;
-    public static final int getui_big_bigview_defaultView=0x7f07008c;
-    public static final int getui_big_defaultView=0x7f07008d;
-    public static final int getui_big_default_Content=0x7f07008e;
-    public static final int getui_big_imageView_headsup=0x7f07008f;
-    public static final int getui_big_imageView_headsup2=0x7f070090;
-    public static final int getui_big_notification=0x7f070091;
-    public static final int getui_big_notification_content=0x7f070092;
-    public static final int getui_big_notification_date=0x7f070093;
-    public static final int getui_big_notification_icon=0x7f070094;
-    public static final int getui_big_notification_icon2=0x7f070095;
-    public static final int getui_big_notification_title=0x7f070096;
-    public static final int getui_big_notification_title_center=0x7f070097;
-    public static final int getui_big_text_headsup=0x7f070098;
-    public static final int getui_bigview_banner=0x7f070099;
-    public static final int getui_bigview_expanded=0x7f07009a;
-    public static final int getui_headsup_banner=0x7f07009b;
-    public static final int getui_icon_headsup=0x7f07009c;
-    public static final int getui_message_headsup=0x7f07009d;
-    public static final int getui_notification_L=0x7f07009e;
-    public static final int getui_notification_L_context=0x7f07009f;
-    public static final int getui_notification_L_icon=0x7f0700a0;
-    public static final int getui_notification_L_line1=0x7f0700a1;
-    public static final int getui_notification_L_line2=0x7f0700a2;
-    public static final int getui_notification_L_line3=0x7f0700a3;
-    public static final int getui_notification_L_right_icon=0x7f0700a4;
-    public static final int getui_notification_L_time=0x7f0700a5;
-    public static final int getui_notification__style2_title=0x7f0700a6;
-    public static final int getui_notification_bg=0x7f0700a7;
-    public static final int getui_notification_date=0x7f0700a8;
-    public static final int getui_notification_download_L=0x7f0700a9;
-    public static final int getui_notification_download_content=0x7f0700aa;
-    public static final int getui_notification_download_content_L=0x7f0700ab;
-    public static final int getui_notification_download_info_L=0x7f0700ac;
-    public static final int getui_notification_download_progressBar_L=0x7f0700ad;
-    public static final int getui_notification_download_progressbar=0x7f0700ae;
-    public static final int getui_notification_download_title_L=0x7f0700af;
-    public static final int getui_notification_headsup=0x7f0700b0;
-    public static final int getui_notification_icon=0x7f0700b1;
-    public static final int getui_notification_icon2=0x7f0700b2;
-    public static final int getui_notification_l_layout=0x7f0700b3;
-    public static final int getui_notification_style1=0x7f0700b4;
-    public static final int getui_notification_style1_content=0x7f0700b5;
-    public static final int getui_notification_style1_title=0x7f0700b6;
-    public static final int getui_notification_style2=0x7f0700b7;
-    public static final int getui_notification_style3=0x7f0700b8;
-    public static final int getui_notification_style3_content=0x7f0700b9;
-    public static final int getui_notification_style4=0x7f0700ba;
-    public static final int getui_notification_title_L=0x7f0700bb;
-    public static final int getui_root_view=0x7f0700bc;
-    public static final int getui_time_headsup=0x7f0700bd;
-    public static final int getui_title_headsup=0x7f0700be;
-    public static final int gif_info=0x7f0700bf;
-    public static final int glide_custom_view_target_tag=0x7f0700c0;
-    public static final int gone=0x7f0700c1;
-    public static final int gridGallery=0x7f0700c2;
-    public static final int groups=0x7f0700c3;
-    public static final int guide_title=0x7f0700c4;
-    public static final int hms_message_text=0x7f0700c5;
-    public static final int hms_progress_bar=0x7f0700c6;
-    public static final int hms_progress_text=0x7f0700c7;
-    public static final int home=0x7f0700c8;
-    public static final int homeAsUp=0x7f0700c9;
-    public static final int icon=0x7f0700ca;
-    public static final int icon_group=0x7f0700cb;
-    public static final int ifRoom=0x7f0700cc;
-    public static final int image=0x7f0700cd;
-    public static final int imgNoMedia=0x7f0700ce;
-    public static final int imgQueue=0x7f0700cf;
-    public static final int imgQueueMask=0x7f0700d0;
-    public static final int indicator=0x7f0700d1;
-    public static final int info=0x7f0700d2;
-    public static final int invisible=0x7f0700d3;
-    public static final int italic=0x7f0700d4;
-    public static final int itemBadge=0x7f0700d5;
-    public static final int itemDot=0x7f0700d6;
-    public static final int item_touch_helper_previous_elevation=0x7f0700d7;
-    public static final int iv_back=0x7f0700d8;
-    public static final int iv_danmaku_control=0x7f0700d9;
-    public static final int iv_fullscreen=0x7f0700da;
-    public static final int iv_mute=0x7f0700db;
-    public static final int iv_play=0x7f0700dc;
-    public static final int iv_play_center=0x7f0700dd;
-    public static final int iv_play_circle=0x7f0700de;
-    public static final int iv_thumb=0x7f0700df;
-    public static final int left=0x7f0700e0;
-    public static final int leftLayout=0x7f0700e1;
-    public static final int line1=0x7f0700e2;
-    public static final int line3=0x7f0700e3;
-    public static final int listMode=0x7f0700e4;
-    public static final int list_item=0x7f0700e5;
-    public static final int ll_bottom_bar=0x7f0700e6;
-    public static final int ll_title_bar=0x7f0700e7;
-    public static final int logs=0x7f0700e8;
-    public static final int mask_view=0x7f0700e9;
-    public static final int media_actions=0x7f0700ea;
-    public static final int media_image=0x7f0700eb;
-    public static final int menu=0x7f0700ec;
-    public static final int message=0x7f0700ed;
-    public static final int middle=0x7f0700ee;
-    public static final int multiply=0x7f0700ef;
-    public static final int name=0x7f0700f0;
-    public static final int name_layout=0x7f0700f1;
-    public static final int name_textview=0x7f0700f2;
-    public static final int never=0x7f0700f3;
-    public static final int none=0x7f0700f4;
-    public static final int normal=0x7f0700f5;
-    public static final int notification_background=0x7f0700f6;
-    public static final int notification_main_column=0x7f0700f7;
-    public static final int notification_main_column_container=0x7f0700f8;
-    public static final int packed=0x7f0700f9;
-    public static final int page=0x7f0700fa;
-    public static final int pager=0x7f0700fb;
-    public static final int parent=0x7f0700fc;
-    public static final int parentPanel=0x7f0700fd;
-    public static final int path=0x7f0700fe;
-    public static final int pb_loading=0x7f0700ff;
-    public static final int percent=0x7f070100;
-    public static final int photoview=0x7f070101;
-    public static final int play_view=0x7f070102;
-    public static final int player_seek=0x7f070103;
-    public static final int preview=0x7f070104;
-    public static final int progressBar=0x7f070105;
-    public static final int progress_circular=0x7f070106;
-    public static final int progress_horizontal=0x7f070107;
-    public static final int push_big_bigtext_defaultView=0x7f070108;
-    public static final int push_big_bigview_defaultView=0x7f070109;
-    public static final int push_big_defaultView=0x7f07010a;
-    public static final int push_big_notification=0x7f07010b;
-    public static final int push_big_notification_content=0x7f07010c;
-    public static final int push_big_notification_date=0x7f07010d;
-    public static final int push_big_notification_icon=0x7f07010e;
-    public static final int push_big_notification_icon2=0x7f07010f;
-    public static final int push_big_notification_title=0x7f070110;
-    public static final int push_big_pic_default_Content=0x7f070111;
-    public static final int push_big_text_notification_area=0x7f070112;
-    public static final int push_pure_bigview_banner=0x7f070113;
-    public static final int push_pure_bigview_expanded=0x7f070114;
-    public static final int query_page=0x7f070115;
-    public static final int radio=0x7f070116;
-    public static final int recycler_view=0x7f070117;
-    public static final int refresh=0x7f070118;
-    public static final int right=0x7f070119;
-    public static final int rightLayout=0x7f07011a;
-    public static final int right_btn=0x7f07011b;
-    public static final int right_icon=0x7f07011c;
-    public static final int right_side=0x7f07011d;
-    public static final int rl_notification=0x7f07011e;
-    public static final int root=0x7f07011f;
-    public static final int screen=0x7f070120;
-    public static final int scrollIndicatorDown=0x7f070121;
-    public static final int scrollIndicatorUp=0x7f070122;
-    public static final int scrollView=0x7f070123;
-    public static final int scroll_layout=0x7f070124;
-    public static final int search_badge=0x7f070125;
-    public static final int search_bar=0x7f070126;
-    public static final int search_button=0x7f070127;
-    public static final int search_close_btn=0x7f070128;
-    public static final int search_edit_frame=0x7f070129;
-    public static final int search_go_btn=0x7f07012a;
-    public static final int search_mag_icon=0x7f07012b;
-    public static final int search_plate=0x7f07012c;
-    public static final int search_src_text=0x7f07012d;
-    public static final int search_voice_btn=0x7f07012e;
-    public static final int select_dialog_listview=0x7f07012f;
-    public static final int select_text=0x7f070130;
-    public static final int set_priority=0x7f070131;
-    public static final int shortcut=0x7f070132;
-    public static final int showCustom=0x7f070133;
-    public static final int showHome=0x7f070134;
-    public static final int showTitle=0x7f070135;
-    public static final int sideBarButtonsLayout=0x7f070136;
-    public static final int sideBarCloseLayout=0x7f070137;
-    public static final int sideBarFavoriteLayout=0x7f070138;
-    public static final int sideBarHomeLayout=0x7f070139;
-    public static final int sideBarOpenOrCloseIV=0x7f07013a;
-    public static final int sideBarOpenOrCloseLayout=0x7f07013b;
-    public static final int sideBarOpenOrCloseTipIV=0x7f07013c;
-    public static final int sideBarReFreshLayout=0x7f07013d;
-    public static final int sideBarShareLayout=0x7f07013e;
-    public static final int size=0x7f07013f;
-    public static final int size_layout=0x7f070140;
-    public static final int spacer=0x7f070141;
-    public static final int split_action_bar=0x7f070142;
-    public static final int spread=0x7f070143;
-    public static final int spread_inside=0x7f070144;
-    public static final int src_atop=0x7f070145;
-    public static final int src_in=0x7f070146;
-    public static final int src_over=0x7f070147;
-    public static final int standard=0x7f070148;
-    public static final int start=0x7f070149;
-    public static final int start_manage=0x7f07014a;
-    public static final int status_bar_latest_event_content=0x7f07014b;
-    public static final int submenuarrow=0x7f07014c;
-    public static final int submit_area=0x7f07014d;
-    public static final int sure=0x7f07014e;
-    public static final int sv_danmaku=0x7f07014f;
-    public static final int tab0=0x7f070150;
-    public static final int tab1=0x7f070151;
-    public static final int tab2=0x7f070152;
-    public static final int tab3=0x7f070153;
-    public static final int tabIV=0x7f070154;
-    public static final int tabMode=0x7f070155;
-    public static final int tabTV=0x7f070156;
-    public static final int tag_transition_group=0x7f070157;
-    public static final int text=0x7f070158;
-    public static final int text2=0x7f070159;
-    public static final int textSpacerNoButtons=0x7f07015a;
-    public static final int textSpacerNoTitle=0x7f07015b;
-    public static final int textView_gif=0x7f07015c;
-    public static final int textView_size=0x7f07015d;
-    public static final int text_bar=0x7f07015e;
-    public static final int third_app_dl_progress_text=0x7f07015f;
-    public static final int third_app_dl_progressbar=0x7f070160;
-    public static final int third_app_warn_text=0x7f070161;
-    public static final int time=0x7f070162;
-    public static final int title=0x7f070163;
-    public static final int titleBtn=0x7f070164;
-    public static final int titleDividerNoCustom=0x7f070165;
-    public static final int title_template=0x7f070166;
-    public static final int top=0x7f070167;
-    public static final int topPanel=0x7f070168;
-    public static final int tvTitleText=0x7f070169;
-    public static final int tv_brightness=0x7f07016a;
-    public static final int tv_cur_time=0x7f07016b;
-    public static final int tv_end_time=0x7f07016c;
-    public static final int tv_fast_forward=0x7f07016d;
-    public static final int tv_fast_rewind=0x7f07016e;
-    public static final int tv_recover_screen=0x7f07016f;
-    public static final int tv_reload=0x7f070170;
-    public static final int tv_title=0x7f070171;
-    public static final int tv_volume=0x7f070172;
-    public static final int uniform=0x7f070173;
-    public static final int up=0x7f070174;
-    public static final int useLogo=0x7f070175;
-    public static final int version_layout=0x7f070176;
-    public static final int version_textview=0x7f070177;
-    public static final int video_info=0x7f070178;
-    public static final int video_view=0x7f070179;
-    public static final int viewpager=0x7f07017a;
-    public static final int voiceDialogContent=0x7f07017b;
-    public static final int voiceDialogRootView=0x7f07017c;
-    public static final int voiceDialogTitle=0x7f07017d;
-    public static final int voiceToTextAnimationIV=0x7f07017e;
-    public static final int voiceToTextAnimationLayout=0x7f07017f;
-    public static final int webview=0x7f070180;
-    public static final int withText=0x7f070181;
-    public static final int wrap=0x7f070182;
-    public static final int wrap_content=0x7f070183;
+    public static final int action0=0x7f070006;
+    public static final int action_bar=0x7f070007;
+    public static final int action_bar_activity_content=0x7f070008;
+    public static final int action_bar_container=0x7f070009;
+    public static final int action_bar_root=0x7f07000a;
+    public static final int action_bar_spinner=0x7f07000b;
+    public static final int action_bar_subtitle=0x7f07000c;
+    public static final int action_bar_title=0x7f07000d;
+    public static final int action_container=0x7f07000e;
+    public static final int action_context_bar=0x7f07000f;
+    public static final int action_divider=0x7f070010;
+    public static final int action_image=0x7f070011;
+    public static final int action_menu_divider=0x7f070012;
+    public static final int action_menu_presenter=0x7f070013;
+    public static final int action_mode_bar=0x7f070014;
+    public static final int action_mode_bar_stub=0x7f070015;
+    public static final int action_mode_close_button=0x7f070016;
+    public static final int action_text=0x7f070017;
+    public static final int actions=0x7f070018;
+    public static final int activity_chooser_view_content=0x7f070019;
+    public static final int ad_dcloud_icon=0x7f07001a;
+    public static final int ad_dcloud_icon_single=0x7f07001b;
+    public static final int ad_dcloud_main_img=0x7f07001c;
+    public static final int ad_dcloud_main_skip=0x7f07001d;
+    public static final int ad_dcloud_name=0x7f07001e;
+    public static final int ad_dcloud_root=0x7f07001f;
+    public static final int ad_dcloud_splash_bottom_bar=0x7f070020;
+    public static final int ad_dcloud_splash_container=0x7f070021;
+    public static final int add=0x7f070022;
+    public static final int alertTitle=0x7f070023;
+    public static final int all=0x7f070024;
+    public static final int always=0x7f070025;
+    public static final int async=0x7f070026;
+    public static final int back=0x7f070027;
+    public static final int bar_title=0x7f070028;
+    public static final int barrier=0x7f070029;
+    public static final int beginning=0x7f07002a;
+    public static final int bgImg=0x7f07002b;
+    public static final int blocking=0x7f07002c;
+    public static final int bottom=0x7f07002d;
+    public static final int bottom_content_layout=0x7f07002e;
+    public static final int btn_back=0x7f07002f;
+    public static final int buttonPanel=0x7f070030;
+    public static final int cancel=0x7f070031;
+    public static final int cancel_action=0x7f070032;
+    public static final int category_btn=0x7f070033;
+    public static final int center=0x7f070034;
+    public static final int centerCrop=0x7f070035;
+    public static final int centerInside=0x7f070036;
+    public static final int center_horizontal=0x7f070037;
+    public static final int center_vertical=0x7f070038;
+    public static final int chains=0x7f070039;
+    public static final int check_image=0x7f07003a;
+    public static final int check_layout=0x7f07003b;
+    public static final int checkbox=0x7f07003c;
+    public static final int chronometer=0x7f07003d;
+    public static final int clip_horizontal=0x7f07003e;
+    public static final int clip_vertical=0x7f07003f;
+    public static final int close=0x7f070040;
+    public static final int collapseActionView=0x7f070041;
+    public static final int content=0x7f070042;
+    public static final int contentPanel=0x7f070043;
+    public static final int contentWrapper=0x7f070044;
+    public static final int cover=0x7f070045;
+    public static final int custom=0x7f070046;
+    public static final int customLayout=0x7f070047;
+    public static final int customPanel=0x7f070048;
+    public static final int dcloud_dialog_btn1=0x7f070049;
+    public static final int dcloud_dialog_btn2=0x7f07004a;
+    public static final int dcloud_dialog_icon=0x7f07004b;
+    public static final int dcloud_dialog_msg=0x7f07004c;
+    public static final int dcloud_dialog_rootview=0x7f07004d;
+    public static final int dcloud_dialog_title=0x7f07004e;
+    public static final int dcloud_guide_close=0x7f07004f;
+    public static final int dcloud_guide_gifview=0x7f070050;
+    public static final int dcloud_guide_play=0x7f070051;
+    public static final int dcloud_guide_play_layout=0x7f070052;
+    public static final int dcloud_guide_tip=0x7f070053;
+    public static final int dcloud_iv_loading=0x7f070054;
+    public static final int dcloud_pb_loading=0x7f070055;
+    public static final int dcloud_pd_root=0x7f070056;
+    public static final int dcloud_record_address_view_1=0x7f070057;
+    public static final int dcloud_record_address_view_2=0x7f070058;
+    public static final int dcloud_record_address_view_3=0x7f070059;
+    public static final int dcloud_record_arrow_left=0x7f07005a;
+    public static final int dcloud_record_arrow_left_layout=0x7f07005b;
+    public static final int dcloud_record_arrow_right=0x7f07005c;
+    public static final int dcloud_record_arrow_right_layout=0x7f07005d;
+    public static final int dcloud_record_arrows=0x7f07005e;
+    public static final int dcloud_record_line_1=0x7f07005f;
+    public static final int dcloud_record_line_2=0x7f070060;
+    public static final int dcloud_record_scroll_view=0x7f070061;
+    public static final int dcloud_record_view_1=0x7f070062;
+    public static final int dcloud_record_view_2=0x7f070063;
+    public static final int dcloud_tv_loading=0x7f070064;
+    public static final int dcloud_view_seaparator=0x7f070065;
+    public static final int debugTV=0x7f070066;
+    public static final int decor_content_parent=0x7f070067;
+    public static final int default_activity_button=0x7f070068;
+    public static final int delete=0x7f070069;
+    public static final int dimensions=0x7f07006a;
+    public static final int direct=0x7f07006b;
+    public static final int disableHome=0x7f07006c;
+    public static final int done=0x7f07006d;
+    public static final int edit_query=0x7f07006e;
+    public static final int end=0x7f07006f;
+    public static final int end_padder=0x7f070070;
+    public static final int expand_activities_button=0x7f070071;
+    public static final int expanded_menu=0x7f070072;
+    public static final int favoriteIcon=0x7f070073;
+    public static final int fill=0x7f070074;
+    public static final int fill_horizontal=0x7f070075;
+    public static final int fill_vertical=0x7f070076;
+    public static final int fitBottomStart=0x7f070077;
+    public static final int fitCenter=0x7f070078;
+    public static final int fitEnd=0x7f070079;
+    public static final int fitStart=0x7f07007a;
+    public static final int fitXY=0x7f07007b;
+    public static final int fl_reload_layout=0x7f07007c;
+    public static final int fl_touch_layout=0x7f07007d;
+    public static final int fl_video_box=0x7f07007e;
+    public static final int focusCrop=0x7f07007f;
+    public static final int footer=0x7f070080;
+    public static final int forever=0x7f070081;
+    public static final int fullscreen_top_bar=0x7f070082;
+    public static final int getui_big_bigtext_defaultView=0x7f070083;
+    public static final int getui_big_bigview_defaultView=0x7f070084;
+    public static final int getui_big_defaultView=0x7f070085;
+    public static final int getui_big_default_Content=0x7f070086;
+    public static final int getui_big_imageView_headsup=0x7f070087;
+    public static final int getui_big_imageView_headsup2=0x7f070088;
+    public static final int getui_big_notification=0x7f070089;
+    public static final int getui_big_notification_content=0x7f07008a;
+    public static final int getui_big_notification_date=0x7f07008b;
+    public static final int getui_big_notification_icon=0x7f07008c;
+    public static final int getui_big_notification_icon2=0x7f07008d;
+    public static final int getui_big_notification_title=0x7f07008e;
+    public static final int getui_big_notification_title_center=0x7f07008f;
+    public static final int getui_big_text_headsup=0x7f070090;
+    public static final int getui_bigview_banner=0x7f070091;
+    public static final int getui_bigview_expanded=0x7f070092;
+    public static final int getui_headsup_banner=0x7f070093;
+    public static final int getui_icon_headsup=0x7f070094;
+    public static final int getui_message_headsup=0x7f070095;
+    public static final int getui_notification_L=0x7f070096;
+    public static final int getui_notification_L_context=0x7f070097;
+    public static final int getui_notification_L_icon=0x7f070098;
+    public static final int getui_notification_L_line1=0x7f070099;
+    public static final int getui_notification_L_line2=0x7f07009a;
+    public static final int getui_notification_L_line3=0x7f07009b;
+    public static final int getui_notification_L_right_icon=0x7f07009c;
+    public static final int getui_notification_L_time=0x7f07009d;
+    public static final int getui_notification__style2_title=0x7f07009e;
+    public static final int getui_notification_bg=0x7f07009f;
+    public static final int getui_notification_date=0x7f0700a0;
+    public static final int getui_notification_download_L=0x7f0700a1;
+    public static final int getui_notification_download_content=0x7f0700a2;
+    public static final int getui_notification_download_content_L=0x7f0700a3;
+    public static final int getui_notification_download_info_L=0x7f0700a4;
+    public static final int getui_notification_download_progressBar_L=0x7f0700a5;
+    public static final int getui_notification_download_progressbar=0x7f0700a6;
+    public static final int getui_notification_download_title_L=0x7f0700a7;
+    public static final int getui_notification_headsup=0x7f0700a8;
+    public static final int getui_notification_icon=0x7f0700a9;
+    public static final int getui_notification_icon2=0x7f0700aa;
+    public static final int getui_notification_l_layout=0x7f0700ab;
+    public static final int getui_notification_style1=0x7f0700ac;
+    public static final int getui_notification_style1_content=0x7f0700ad;
+    public static final int getui_notification_style1_title=0x7f0700ae;
+    public static final int getui_notification_style2=0x7f0700af;
+    public static final int getui_notification_style3=0x7f0700b0;
+    public static final int getui_notification_style3_content=0x7f0700b1;
+    public static final int getui_notification_style4=0x7f0700b2;
+    public static final int getui_notification_title_L=0x7f0700b3;
+    public static final int getui_root_view=0x7f0700b4;
+    public static final int getui_time_headsup=0x7f0700b5;
+    public static final int getui_title_headsup=0x7f0700b6;
+    public static final int gif_info=0x7f0700b7;
+    public static final int glide_custom_view_target_tag=0x7f0700b8;
+    public static final int gone=0x7f0700b9;
+    public static final int gridGallery=0x7f0700ba;
+    public static final int groups=0x7f0700bb;
+    public static final int guide_title=0x7f0700bc;
+    public static final int home=0x7f0700bd;
+    public static final int homeAsUp=0x7f0700be;
+    public static final int icon=0x7f0700bf;
+    public static final int icon_group=0x7f0700c0;
+    public static final int ifRoom=0x7f0700c1;
+    public static final int image=0x7f0700c2;
+    public static final int imgNoMedia=0x7f0700c3;
+    public static final int imgQueue=0x7f0700c4;
+    public static final int imgQueueMask=0x7f0700c5;
+    public static final int indicator=0x7f0700c6;
+    public static final int info=0x7f0700c7;
+    public static final int invisible=0x7f0700c8;
+    public static final int italic=0x7f0700c9;
+    public static final int itemBadge=0x7f0700ca;
+    public static final int itemDot=0x7f0700cb;
+    public static final int item_touch_helper_previous_elevation=0x7f0700cc;
+    public static final int iv_back=0x7f0700cd;
+    public static final int iv_danmaku_control=0x7f0700ce;
+    public static final int iv_fullscreen=0x7f0700cf;
+    public static final int iv_mute=0x7f0700d0;
+    public static final int iv_play=0x7f0700d1;
+    public static final int iv_play_center=0x7f0700d2;
+    public static final int iv_play_circle=0x7f0700d3;
+    public static final int iv_thumb=0x7f0700d4;
+    public static final int left=0x7f0700d5;
+    public static final int leftLayout=0x7f0700d6;
+    public static final int line1=0x7f0700d7;
+    public static final int line3=0x7f0700d8;
+    public static final int listMode=0x7f0700d9;
+    public static final int list_item=0x7f0700da;
+    public static final int ll_bottom_bar=0x7f0700db;
+    public static final int ll_title_bar=0x7f0700dc;
+    public static final int logs=0x7f0700dd;
+    public static final int mask_view=0x7f0700de;
+    public static final int media_actions=0x7f0700df;
+    public static final int media_image=0x7f0700e0;
+    public static final int menu=0x7f0700e1;
+    public static final int message=0x7f0700e2;
+    public static final int midBTN=0x7f0700e3;
+    public static final int middle=0x7f0700e4;
+    public static final int multiply=0x7f0700e5;
+    public static final int name=0x7f0700e6;
+    public static final int never=0x7f0700e7;
+    public static final int none=0x7f0700e8;
+    public static final int normal=0x7f0700e9;
+    public static final int notification_background=0x7f0700ea;
+    public static final int notification_main_column=0x7f0700eb;
+    public static final int notification_main_column_container=0x7f0700ec;
+    public static final int packed=0x7f0700ed;
+    public static final int page=0x7f0700ee;
+    public static final int pager=0x7f0700ef;
+    public static final int parent=0x7f0700f0;
+    public static final int parentPanel=0x7f0700f1;
+    public static final int path=0x7f0700f2;
+    public static final int pb_loading=0x7f0700f3;
+    public static final int percent=0x7f0700f4;
+    public static final int photoview=0x7f0700f5;
+    public static final int play_view=0x7f0700f6;
+    public static final int player_seek=0x7f0700f7;
+    public static final int preview=0x7f0700f8;
+    public static final int progressBar=0x7f0700f9;
+    public static final int progress_circular=0x7f0700fa;
+    public static final int progress_horizontal=0x7f0700fb;
+    public static final int query_page=0x7f0700fc;
+    public static final int radio=0x7f0700fd;
+    public static final int recycler_view=0x7f0700fe;
+    public static final int refresh=0x7f0700ff;
+    public static final int right=0x7f070100;
+    public static final int rightLayout=0x7f070101;
+    public static final int right_icon=0x7f070102;
+    public static final int right_side=0x7f070103;
+    public static final int rl_notification=0x7f070104;
+    public static final int root=0x7f070105;
+    public static final int screen=0x7f070106;
+    public static final int scrollIndicatorDown=0x7f070107;
+    public static final int scrollIndicatorUp=0x7f070108;
+    public static final int scrollView=0x7f070109;
+    public static final int search_badge=0x7f07010a;
+    public static final int search_bar=0x7f07010b;
+    public static final int search_button=0x7f07010c;
+    public static final int search_close_btn=0x7f07010d;
+    public static final int search_edit_frame=0x7f07010e;
+    public static final int search_go_btn=0x7f07010f;
+    public static final int search_mag_icon=0x7f070110;
+    public static final int search_plate=0x7f070111;
+    public static final int search_src_text=0x7f070112;
+    public static final int search_voice_btn=0x7f070113;
+    public static final int select_dialog_listview=0x7f070114;
+    public static final int select_text=0x7f070115;
+    public static final int set_priority=0x7f070116;
+    public static final int shortcut=0x7f070117;
+    public static final int showCustom=0x7f070118;
+    public static final int showHome=0x7f070119;
+    public static final int showTitle=0x7f07011a;
+    public static final int sideBarButtonsLayout=0x7f07011b;
+    public static final int sideBarCloseLayout=0x7f07011c;
+    public static final int sideBarFavoriteLayout=0x7f07011d;
+    public static final int sideBarHomeLayout=0x7f07011e;
+    public static final int sideBarOpenOrCloseIV=0x7f07011f;
+    public static final int sideBarOpenOrCloseLayout=0x7f070120;
+    public static final int sideBarOpenOrCloseTipIV=0x7f070121;
+    public static final int sideBarReFreshLayout=0x7f070122;
+    public static final int sideBarShareLayout=0x7f070123;
+    public static final int size=0x7f070124;
+    public static final int spacer=0x7f070125;
+    public static final int split_action_bar=0x7f070126;
+    public static final int spread=0x7f070127;
+    public static final int spread_inside=0x7f070128;
+    public static final int src_atop=0x7f070129;
+    public static final int src_in=0x7f07012a;
+    public static final int src_over=0x7f07012b;
+    public static final int standard=0x7f07012c;
+    public static final int start=0x7f07012d;
+    public static final int start_manage=0x7f07012e;
+    public static final int status_bar_latest_event_content=0x7f07012f;
+    public static final int submenuarrow=0x7f070130;
+    public static final int submit_area=0x7f070131;
+    public static final int sure=0x7f070132;
+    public static final int sv_danmaku=0x7f070133;
+    public static final int tab0=0x7f070134;
+    public static final int tab1=0x7f070135;
+    public static final int tab2=0x7f070136;
+    public static final int tab3=0x7f070137;
+    public static final int tabIV=0x7f070138;
+    public static final int tabMode=0x7f070139;
+    public static final int tabTV=0x7f07013a;
+    public static final int tag_transition_group=0x7f07013b;
+    public static final int text=0x7f07013c;
+    public static final int text2=0x7f07013d;
+    public static final int textSpacerNoButtons=0x7f07013e;
+    public static final int textSpacerNoTitle=0x7f07013f;
+    public static final int textView_gif=0x7f070140;
+    public static final int textView_size=0x7f070141;
+    public static final int text_bar=0x7f070142;
+    public static final int time=0x7f070143;
+    public static final int title=0x7f070144;
+    public static final int titleBtn=0x7f070145;
+    public static final int titleDividerNoCustom=0x7f070146;
+    public static final int title_template=0x7f070147;
+    public static final int top=0x7f070148;
+    public static final int topPanel=0x7f070149;
+    public static final int tvTitleText=0x7f07014a;
+    public static final int tv_brightness=0x7f07014b;
+    public static final int tv_cur_time=0x7f07014c;
+    public static final int tv_end_time=0x7f07014d;
+    public static final int tv_fast_forward=0x7f07014e;
+    public static final int tv_fast_rewind=0x7f07014f;
+    public static final int tv_recover_screen=0x7f070150;
+    public static final int tv_reload=0x7f070151;
+    public static final int tv_title=0x7f070152;
+    public static final int tv_volume=0x7f070153;
+    public static final int uniform=0x7f070154;
+    public static final int up=0x7f070155;
+    public static final int useLogo=0x7f070156;
+    public static final int video_info=0x7f070157;
+    public static final int video_view=0x7f070158;
+    public static final int viewpager=0x7f070159;
+    public static final int voiceDialogContent=0x7f07015a;
+    public static final int voiceDialogRootView=0x7f07015b;
+    public static final int voiceDialogTitle=0x7f07015c;
+    public static final int voiceToTextAnimationIV=0x7f07015d;
+    public static final int voiceToTextAnimationLayout=0x7f07015e;
+    public static final int webview=0x7f07015f;
+    public static final int withText=0x7f070160;
+    public static final int wrap=0x7f070161;
+    public static final int wrap_content=0x7f070162;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -4324,46 +4239,40 @@ public final class R {
     public static final int dcloud_snow_white_progress=0x7f090036;
     public static final int dcloud_streamapp_custom_dialog_layout=0x7f090037;
     public static final int dcloud_tabbar_item=0x7f090038;
-    public static final int dcloud_weex_debug_progress=0x7f090039;
-    public static final int getui_notification=0x7f09003a;
-    public static final int hms_download_progress=0x7f09003b;
-    public static final int hwpush_layout2=0x7f09003c;
-    public static final int notification_action=0x7f09003d;
-    public static final int notification_action_tombstone=0x7f09003e;
-    public static final int notification_media_action=0x7f09003f;
-    public static final int notification_media_cancel_action=0x7f090040;
-    public static final int notification_template_big_media=0x7f090041;
-    public static final int notification_template_big_media_custom=0x7f090042;
-    public static final int notification_template_big_media_narrow=0x7f090043;
-    public static final int notification_template_big_media_narrow_custom=0x7f090044;
-    public static final int notification_template_custom_big=0x7f090045;
-    public static final int notification_template_icon_group=0x7f090046;
-    public static final int notification_template_lines_media=0x7f090047;
-    public static final int notification_template_media=0x7f090048;
-    public static final int notification_template_media_custom=0x7f090049;
-    public static final int notification_template_part_chronometer=0x7f09004a;
-    public static final int notification_template_part_time=0x7f09004b;
-    public static final int push_expandable_big_image_notification=0x7f09004c;
-    public static final int push_expandable_big_text_notification=0x7f09004d;
-    public static final int push_pure_pic_notification=0x7f09004e;
-    public static final int select_dialog_item_material=0x7f09004f;
-    public static final int select_dialog_multichoice_material=0x7f090050;
-    public static final int select_dialog_singlechoice_material=0x7f090051;
-    public static final int side_bar_layout=0x7f090052;
-    public static final int speech_dialog=0x7f090053;
-    public static final int support_simple_spinner_dropdown_item=0x7f090054;
-    public static final int tooltip=0x7f090055;
-    public static final int upsdk_app_dl_progress_dialog=0x7f090056;
-    public static final int upsdk_ota_update_view=0x7f090057;
-    public static final int video_layout_bottom_bar=0x7f090058;
-    public static final int video_layout_player_view=0x7f090059;
-    public static final int video_layout_touch_gestures=0x7f09005a;
-    public static final int webview_layout=0x7f09005b;
-    public static final int weex_recycler_layout=0x7f09005c;
-    public static final int weex_video_layout_bottom_bar=0x7f09005d;
-    public static final int weex_video_layout_player_view=0x7f09005e;
-    public static final int weex_video_layout_top_bar=0x7f09005f;
-    public static final int weex_video_layout_touch_gestures=0x7f090060;
+    public static final int dcloud_tabbar_mid=0x7f090039;
+    public static final int dcloud_weex_debug_progress=0x7f09003a;
+    public static final int getui_notification=0x7f09003b;
+    public static final int notification_action=0x7f09003c;
+    public static final int notification_action_tombstone=0x7f09003d;
+    public static final int notification_media_action=0x7f09003e;
+    public static final int notification_media_cancel_action=0x7f09003f;
+    public static final int notification_template_big_media=0x7f090040;
+    public static final int notification_template_big_media_custom=0x7f090041;
+    public static final int notification_template_big_media_narrow=0x7f090042;
+    public static final int notification_template_big_media_narrow_custom=0x7f090043;
+    public static final int notification_template_custom_big=0x7f090044;
+    public static final int notification_template_icon_group=0x7f090045;
+    public static final int notification_template_lines_media=0x7f090046;
+    public static final int notification_template_media=0x7f090047;
+    public static final int notification_template_media_custom=0x7f090048;
+    public static final int notification_template_part_chronometer=0x7f090049;
+    public static final int notification_template_part_time=0x7f09004a;
+    public static final int select_dialog_item_material=0x7f09004b;
+    public static final int select_dialog_multichoice_material=0x7f09004c;
+    public static final int select_dialog_singlechoice_material=0x7f09004d;
+    public static final int side_bar_layout=0x7f09004e;
+    public static final int speech_dialog=0x7f09004f;
+    public static final int support_simple_spinner_dropdown_item=0x7f090050;
+    public static final int tooltip=0x7f090051;
+    public static final int video_layout_bottom_bar=0x7f090052;
+    public static final int video_layout_player_view=0x7f090053;
+    public static final int video_layout_touch_gestures=0x7f090054;
+    public static final int webview_layout=0x7f090055;
+    public static final int weex_recycler_layout=0x7f090056;
+    public static final int weex_video_layout_bottom_bar=0x7f090057;
+    public static final int weex_video_layout_player_view=0x7f090058;
+    public static final int weex_video_layout_top_bar=0x7f090059;
+    public static final int weex_video_layout_touch_gestures=0x7f09005a;
   }
   public static final class raw {
     public static final int amaro=0x7f0a0000;
@@ -4466,59 +4375,13 @@ public final class R {
     public static final int dcloud_gallery_video_dir_name=0x7f0b0032;
     public static final int dcloud_package_name_base_application=0x7f0b0033;
     public static final int dcloud_sync_debug_message=0x7f0b0034;
-    public static final int hms_abort=0x7f0b0035;
-    public static final int hms_abort_message=0x7f0b0036;
-    public static final int hms_bindfaildlg_message=0x7f0b0037;
-    public static final int hms_bindfaildlg_title=0x7f0b0038;
-    public static final int hms_cancel=0x7f0b0039;
-    public static final int hms_check_failure=0x7f0b003a;
-    public static final int hms_check_no_update=0x7f0b003b;
-    public static final int hms_checking=0x7f0b003c;
-    public static final int hms_confirm=0x7f0b003d;
-    public static final int hms_download_failure=0x7f0b003e;
-    public static final int hms_download_no_space=0x7f0b003f;
-    public static final int hms_download_retry=0x7f0b0040;
-    public static final int hms_downloading=0x7f0b0041;
-    public static final int hms_downloading_loading=0x7f0b0042;
-    public static final int hms_downloading_new=0x7f0b0043;
-    public static final int hms_gamebox_name=0x7f0b0044;
-    public static final int hms_install=0x7f0b0045;
-    public static final int hms_install_message=0x7f0b0046;
-    public static final int hms_retry=0x7f0b0047;
-    public static final int hms_update=0x7f0b0048;
-    public static final int hms_update_message=0x7f0b0049;
-    public static final int hms_update_message_new=0x7f0b004a;
-    public static final int hms_update_title=0x7f0b004b;
-    public static final int livepusher_error_tips=0x7f0b004c;
-    public static final int search_menu_title=0x7f0b004d;
-    public static final int sp_ifly_error_tips=0x7f0b004e;
-    public static final int status_bar_notification_info_overflow=0x7f0b004f;
-    public static final int stream_my=0x7f0b0050;
-    public static final int upsdk_app_dl_installing=0x7f0b0051;
-    public static final int upsdk_app_download_info_new=0x7f0b0052;
-    public static final int upsdk_app_size=0x7f0b0053;
-    public static final int upsdk_app_version=0x7f0b0054;
-    public static final int upsdk_cancel=0x7f0b0055;
-    public static final int upsdk_checking_update_prompt=0x7f0b0056;
-    public static final int upsdk_choice_update=0x7f0b0057;
-    public static final int upsdk_connect_server_fail_prompt_toast=0x7f0b0058;
-    public static final int upsdk_detail=0x7f0b0059;
-    public static final int upsdk_getting_message_fail_prompt_toast=0x7f0b005a;
-    public static final int upsdk_install=0x7f0b005b;
-    public static final int upsdk_no_available_network_prompt_toast=0x7f0b005c;
-    public static final int upsdk_ota_app_name=0x7f0b005d;
-    public static final int upsdk_ota_cancel=0x7f0b005e;
-    public static final int upsdk_ota_force_cancel_new=0x7f0b005f;
-    public static final int upsdk_ota_notify_updatebtn=0x7f0b0060;
-    public static final int upsdk_ota_title=0x7f0b0061;
-    public static final int upsdk_storage_utils=0x7f0b0062;
-    public static final int upsdk_third_app_dl_cancel_download_prompt_ex=0x7f0b0063;
-    public static final int upsdk_third_app_dl_install_failed=0x7f0b0064;
-    public static final int upsdk_third_app_dl_sure_cancel_download=0x7f0b0065;
-    public static final int upsdk_update_check_no_new_version=0x7f0b0066;
-    public static final int upsdk_updating=0x7f0b0067;
-    public static final int videos_bottom_bullet=0x7f0b0068;
-    public static final int videos_bottom_restore=0x7f0b0069;
+    public static final int livepusher_error_tips=0x7f0b0035;
+    public static final int search_menu_title=0x7f0b0036;
+    public static final int sp_ifly_error_tips=0x7f0b0037;
+    public static final int status_bar_notification_info_overflow=0x7f0b0038;
+    public static final int stream_my=0x7f0b0039;
+    public static final int videos_bottom_bullet=0x7f0b003a;
+    public static final int videos_bottom_restore=0x7f0b003b;
   }
   public static final class style {
     public static final int ActionSheetStyleIOS6=0x7f0c0000;
@@ -4905,7 +4768,6 @@ public final class R {
     public static final int dcloud_defalut_dialog=0x7f0c017d;
     public static final int featureLossDialog=0x7f0c017e;
     public static final int streamDelete19Dialog=0x7f0c017f;
-    public static final int upsdkDlDialog=0x7f0c0180;
   }
   public static final class styleable {
     /**
@@ -9291,7 +9153,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -11201,9 +11063,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GIFVIEW_authPlay com.camel.c7:authPlay}</code></td><td>是否加载完自动播放</td></tr>
-     * <tr><td><code>{@link #GIFVIEW_gifSrc com.camel.c7:gifSrc}</code></td><td>gif文件引用</td></tr>
-     * <tr><td><code>{@link #GIFVIEW_playCount com.camel.c7:playCount}</code></td><td>播放次放，默认永远播放</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_authPlay com.camel.c7:authPlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GIFVIEW_gifSrc com.camel.c7:gifSrc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GIFVIEW_playCount com.camel.c7:playCount}</code></td><td></td></tr>
      * </table>
      * @see #GIFVIEW_authPlay
      * @see #GIFVIEW_gifSrc
@@ -11213,9 +11075,8 @@ public final class R {
       0x7f020032, 0x7f020099, 0x7f02010b
     };
     /**
-     * <p>
-     * @attr description
-     * 是否加载完自动播放
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#authPlay}
+     * attribute's value can be found in the {@link #GIFVIEW} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11224,9 +11085,8 @@ public final class R {
      */
     public static final int GIFVIEW_authPlay=0;
     /**
-     * <p>
-     * @attr description
-     * gif文件引用
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#gifSrc}
+     * attribute's value can be found in the {@link #GIFVIEW} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11237,9 +11097,8 @@ public final class R {
      */
     public static final int GIFVIEW_gifSrc=1;
     /**
-     * <p>
-     * @attr description
-     * 播放次放，默认永远播放
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#playCount}
+     * attribute's value can be found in the {@link #GIFVIEW} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11253,35 +11112,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.camel.c7:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.camel.c7:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.camel.c7:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.camel.c7:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.camel.c7:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.camel.c7:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.camel.c7:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td>Round as circle.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.camel.c7:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.camel.c7:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.camel.c7:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.camel.c7:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.camel.c7:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.camel.c7:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.camel.c7:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.camel.c7:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.camel.c7:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.camel.c7:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.camel.c7:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #GenericDraweeHierarchy_actualImageScaleType
      * @see #GenericDraweeHierarchy_backgroundImage
@@ -11324,9 +11183,8 @@ public final class R {
       0x7f020186
     };
     /**
-     * <p>
-     * @attr description
-     * Scale type of the actual image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageScaleType}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11350,9 +11208,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_actualImageScaleType=0;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as a background.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#backgroundImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11363,9 +11220,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_backgroundImage=1;
     /**
-     * <p>
-     * @attr description
-     * Fade duration in milliseconds.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#fadeDuration}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11373,9 +11229,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_fadeDuration=2;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a failure image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11386,9 +11241,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_failureImage=3;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the failure image. Ignored if failureImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImageScaleType}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11412,9 +11266,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_failureImageScaleType=4;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as an overlay.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#overlayImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11425,9 +11278,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_overlayImage=5;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be be used as a placeholder.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11438,9 +11290,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_placeholderImage=6;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImageScaleType}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11464,9 +11315,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_placeholderImageScaleType=7;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as a pressed-state-overlay
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#pressedStateOverlayImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11477,9 +11327,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_pressedStateOverlayImage=8;
     /**
-     * <p>
-     * @attr description
-     * Progress bar Auto Rotate interval in milliseconds
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarAutoRotateInterval}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11487,9 +11336,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval=9;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a progress bar.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11500,9 +11348,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarImage=10;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImageScaleType}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11526,9 +11373,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarImageScaleType=11;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a retry image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImage}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11539,9 +11385,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_retryImage=12;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the retry image. Ignored if retryImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImageScaleType}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11565,9 +11410,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_retryImageScaleType=13;
     /**
-     * <p>
-     * @attr description
-     * Round as circle.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundAsCircle}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11576,9 +11420,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundAsCircle=14;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-end edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomEnd}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11587,9 +11430,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomEnd=15;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-left corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomLeft}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11598,9 +11440,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomLeft=16;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-right corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomRight}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11609,9 +11450,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomRight=17;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-start edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomStart}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11620,9 +11460,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomStart=18;
     /**
-     * <p>
-     * @attr description
-     * Round the top-end edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopEnd}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11631,9 +11470,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopEnd=19;
     /**
-     * <p>
-     * @attr description
-     * Round the top-left corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopLeft}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11642,9 +11480,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopLeft=20;
     /**
-     * <p>
-     * @attr description
-     * Round the top-right corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopRight}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11653,9 +11490,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopRight=21;
     /**
-     * <p>
-     * @attr description
-     * Round the top-start edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopStart}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11664,9 +11500,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopStart=22;
     /**
-     * <p>
-     * @attr description
-     * Round by overlying color.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundWithOverlayColor}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -11676,9 +11511,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundWithOverlayColor=23;
     /**
-     * <p>
-     * @attr description
-     * Rounded corner radius. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundedCornerRadius}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11690,9 +11524,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundedCornerRadius=24;
     /**
-     * <p>
-     * @attr description
-     * Rounding border color
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderColor}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -11702,9 +11535,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderColor=25;
     /**
-     * <p>
-     * @attr description
-     * Rounding border padding
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderPadding}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11716,9 +11548,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderPadding=26;
     /**
-     * <p>
-     * @attr description
-     * Rounding border width
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderWidth}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11730,9 +11561,8 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderWidth=27;
     /**
-     * <p>
-     * @attr description
-     * Aspect ratio (width / height) of the view, not necessarily of the images.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#viewAspectRatio}
+     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -13352,37 +13182,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.camel.c7:actualImageResource}</code></td><td>An image reference</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.camel.c7:actualImageUri}</code></td><td>An image uri .</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.camel.c7:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.camel.c7:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.camel.c7:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.camel.c7:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.camel.c7:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.camel.c7:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.camel.c7:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td>Round as circle.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.camel.c7:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.camel.c7:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.camel.c7:actualImageResource}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.camel.c7:actualImageUri}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.camel.c7:backgroundImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.camel.c7:fadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.camel.c7:failureImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.camel.c7:overlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.camel.c7:placeholderImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.camel.c7:progressBarImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.camel.c7:retryImage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.camel.c7:roundTopRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.camel.c7:roundTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td></td></tr>
      * </table>
      * @see #SimpleDraweeView_actualImageResource
      * @see #SimpleDraweeView_actualImageScaleType
@@ -13427,9 +13257,8 @@ public final class R {
       0x7f02012b, 0x7f02012c, 0x7f020186
     };
     /**
-     * <p>
-     * @attr description
-     * An image reference
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageResource}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13440,9 +13269,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageResource=0;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the actual image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageScaleType}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13466,9 +13294,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageScaleType=1;
     /**
-     * <p>
-     * @attr description
-     * An image uri .
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageUri}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13477,9 +13304,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageUri=2;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as a background.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#backgroundImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13490,9 +13316,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_backgroundImage=3;
     /**
-     * <p>
-     * @attr description
-     * Fade duration in milliseconds.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#fadeDuration}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13500,9 +13325,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_fadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a failure image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13513,9 +13337,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_failureImage=5;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the failure image. Ignored if failureImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImageScaleType}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13539,9 +13362,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_failureImageScaleType=6;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as an overlay.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#overlayImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13552,9 +13374,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_overlayImage=7;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be be used as a placeholder.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13565,9 +13386,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_placeholderImage=8;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImageScaleType}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13591,9 +13411,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_placeholderImageScaleType=9;
     /**
-     * <p>
-     * @attr description
-     * A drawable or color to be used as a pressed-state-overlay
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#pressedStateOverlayImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13604,9 +13423,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_pressedStateOverlayImage=10;
     /**
-     * <p>
-     * @attr description
-     * Progress bar Auto Rotate interval in milliseconds
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarAutoRotateInterval}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13614,9 +13432,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarAutoRotateInterval=11;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a progress bar.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13627,9 +13444,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarImage=12;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImageScaleType}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13653,9 +13469,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarImageScaleType=13;
     /**
-     * <p>
-     * @attr description
-     * A drawable to be be used as a retry image.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImage}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13666,9 +13481,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_retryImage=14;
     /**
-     * <p>
-     * @attr description
-     * Scale type of the retry image. Ignored if retryImage is not specified.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImageScaleType}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13692,9 +13506,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_retryImageScaleType=15;
     /**
-     * <p>
-     * @attr description
-     * Round as circle.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundAsCircle}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13703,9 +13516,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundAsCircle=16;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-end edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomEnd}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13714,9 +13526,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomEnd=17;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-left corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomLeft}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13725,9 +13536,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomLeft=18;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-right corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomRight}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13736,9 +13546,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomRight=19;
     /**
-     * <p>
-     * @attr description
-     * Round the bottom-start edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomStart}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13747,9 +13556,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomStart=20;
     /**
-     * <p>
-     * @attr description
-     * Round the top-end edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopEnd}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13758,9 +13566,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopEnd=21;
     /**
-     * <p>
-     * @attr description
-     * Round the top-left corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopLeft}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13769,9 +13576,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopLeft=22;
     /**
-     * <p>
-     * @attr description
-     * Round the top-right corner. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopRight}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13780,9 +13586,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopRight=23;
     /**
-     * <p>
-     * @attr description
-     * Round the top-start edge. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopStart}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13791,9 +13596,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopStart=24;
     /**
-     * <p>
-     * @attr description
-     * Round by overlying color.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundWithOverlayColor}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -13803,9 +13607,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundWithOverlayColor=25;
     /**
-     * <p>
-     * @attr description
-     * Rounded corner radius. Ignored if roundAsCircle is used.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundedCornerRadius}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13817,9 +13620,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundedCornerRadius=26;
     /**
-     * <p>
-     * @attr description
-     * Rounding border color
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderColor}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -13829,9 +13631,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderColor=27;
     /**
-     * <p>
-     * @attr description
-     * Rounding border padding
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderPadding}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13843,9 +13644,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderPadding=28;
     /**
-     * <p>
-     * @attr description
-     * Rounding border width
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderWidth}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13857,9 +13657,8 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderWidth=29;
     /**
-     * <p>
-     * @attr description
-     * Aspect ratio (width / height) of the view, not necessarily of the images.
+     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#viewAspectRatio}
+     * attribute's value can be found in the {@link #SimpleDraweeView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *

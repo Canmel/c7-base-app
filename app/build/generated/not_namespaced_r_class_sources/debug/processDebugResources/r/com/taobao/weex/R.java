@@ -39,12 +39,12 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int weex_error = 0x7f0600f7;
+        public static final int weex_error = 0x7f0600f0;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int weex_recycler_layout = 0x7f09005c;
+        public static final int weex_recycler_layout = 0x7f090056;
     }
     public static final class styleable {
         private styleable() {}
