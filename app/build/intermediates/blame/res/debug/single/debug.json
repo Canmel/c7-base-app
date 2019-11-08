@@ -912,12 +912,12 @@
         "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cb6abf044209249ef1fdce1bfbb9c0b1/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/baily/code/c7-app/app/build/intermediates/res/merged/debug/layout_dcloud_custom_notification_transparent.xml.flat",
-        "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/19c54c7c6d99b0982bbd2269dab4a5e2/res/layout/dcloud_custom_notification_transparent.xml"
-    },
-    {
         "merged": "/Users/baily/code/c7-app/app/build/intermediates/res/merged/debug/drawable-xxhdpi_logo.png.flat",
         "source": "/Users/baily/code/c7-app/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/baily/code/c7-app/app/build/intermediates/res/merged/debug/layout_dcloud_custom_notification_transparent.xml.flat",
+        "source": "/Users/baily/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/19c54c7c6d99b0982bbd2269dab4a5e2/res/layout/dcloud_custom_notification_transparent.xml"
     },
     {
         "merged": "/Users/baily/code/c7-app/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_dcloud_gallery_text_indicator.png.flat",

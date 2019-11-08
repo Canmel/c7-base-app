@@ -98,7 +98,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/legacy_multidex_aapt_derived_proguard_rules" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/legacy_multidex_main_dex_list" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
@@ -128,6 +127,7 @@
     <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:1.13.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:1.13.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/payment-alipay-release.aar/6196804467a18e0f82db6aafb3a37a2c:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/code/c7-app/app/libs/qq_sdk_v3.3.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.9.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:27.1.1@aar" level="project" />
@@ -156,6 +156,7 @@
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/share-tencent-release.aar/6040639855b7389276443f0fffdfb5b3:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/code/c7-app/app/libs/alipayutdid.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-unipush-release.aar/0c2f6fae4b34046af758cdf316f3a0a9:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/code/c7-app/app/libs/wechat-sdk-android-without-mta-5.4.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/sqlite-release.aar/7ba5c399aa61d6f6bc46ec0d3cea50b1:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/code/c7-app/app/libs/qq_sdk_v3.1.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:1.13.0@aar" level="project" />
@@ -168,6 +169,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:27.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-dhPush-release.aar/b79dd332c087b9e71562b647613de79b:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:27.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-xiaomi-release.aar/4c461fda2750e25f32b946fcbe1ffc5c:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/geolocation-amap-release.aar/9fe9617932f0b8a4a67fcff2279ed02a:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:multidex:1.0.2@aar" level="project" />
@@ -193,10 +195,12 @@
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/oauth-weixin-release.aar/54b37c5142af84c9c13c2fe477d59a17:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba.android:bindingx-core:1.0.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagefilters:1.13.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/aps-igexin-release.aar/b9f05a7daf5b54915ea91e0e293cd7cd:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-release@1.2.17.aar/d66810322e7035cc7516bad187fcf508:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/map-amap-release.aar/78abac778eb036918d2eadb34c6147e5:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/code/c7-app/app/libs/wechat-sdk-android-with-mta-5.1.4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/openDefault-4.4.1.aar/d57fb4a59e209e7be9119a140acdb978:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment:27.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/media-livepusher-release.aar/ebd988bdb243d2b980ebae48bf8999fe:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/Users/baily/.gradle/caches/transforms-1/files-1.1/speech-release.aar/36ebb33c22017cc9882d2ed10b375f1c:unspecified@jar" level="project" />

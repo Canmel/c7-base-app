@@ -322,6 +322,7 @@ public final class R {
      */
     public static final int activityChooserViewStyle=0x7f020025;
     /**
+     * An image reference
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -329,6 +330,7 @@ public final class R {
      */
     public static final int actualImageResource=0x7f020026;
     /**
+     * Scale type of the actual image.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -349,6 +351,7 @@ public final class R {
      */
     public static final int actualImageScaleType=0x7f020027;
     /**
+     * An image uri .
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -421,6 +424,7 @@ public final class R {
      */
     public static final int arrowShaftLength=0x7f020031;
     /**
+     * 是否加载完自动播放
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -483,6 +487,7 @@ public final class R {
      */
     public static final int background=0x7f020039;
     /**
+     * A drawable or color to be used as a background.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1060,10 +1065,12 @@ public final class R {
      */
     public static final int expandActivityOverflowButtonDrawable=0x7f020083;
     /**
+     * Fade duration in milliseconds.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fadeDuration=0x7f020084;
     /**
+     * A drawable to be be used as a failure image.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1071,6 +1078,7 @@ public final class R {
      */
     public static final int failureImage=0x7f020085;
     /**
+     * Scale type of the failure image. Ignored if failureImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1220,6 +1228,7 @@ public final class R {
      */
     public static final int gifSource=0x7f020098;
     /**
+     * gif文件引用
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1908,7 +1917,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -2152,6 +2161,7 @@ public final class R {
      */
     public static final int overlapAnchor=0x7f020100;
     /**
+     * A drawable or color to be used as an overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2213,6 +2223,7 @@ public final class R {
      */
     public static final int panelMenuListWidth=0x7f020108;
     /**
+     * A drawable or color to be be used as a placeholder.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2220,6 +2231,7 @@ public final class R {
      */
     public static final int placeholderImage=0x7f020109;
     /**
+     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2240,6 +2252,7 @@ public final class R {
      */
     public static final int placeholderImageScaleType=0x7f02010a;
     /**
+     * 播放次放，默认永远播放
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int playCount=0x7f02010b;
@@ -2270,6 +2283,7 @@ public final class R {
      */
     public static final int preserveIconSpacing=0x7f02010f;
     /**
+     * A drawable or color to be used as a pressed-state-overlay
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2277,10 +2291,12 @@ public final class R {
      */
     public static final int pressedStateOverlayImage=0x7f020110;
     /**
+     * Progress bar Auto Rotate interval in milliseconds
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int progressBarAutoRotateInterval=0x7f020111;
     /**
+     * A drawable to be be used as a progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2288,6 +2304,7 @@ public final class R {
      */
     public static final int progressBarImage=0x7f020112;
     /**
+     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2363,6 +2380,7 @@ public final class R {
      */
     public static final int ratingBarStyleSmall=0x7f02011b;
     /**
+     * A drawable to be be used as a retry image.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2370,6 +2388,7 @@ public final class R {
      */
     public static final int retryImage=0x7f02011c;
     /**
+     * Scale type of the retry image. Ignored if retryImage is not specified.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2395,57 +2414,68 @@ public final class R {
      */
     public static final int reverseLayout=0x7f02011e;
     /**
+     * Round as circle.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundAsCircle=0x7f02011f;
     /**
+     * Round the bottom-end edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomEnd=0x7f020120;
     /**
+     * Round the bottom-left corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomLeft=0x7f020121;
     /**
+     * Round the bottom-right corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomRight=0x7f020122;
     /**
+     * Round the bottom-start edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundBottomStart=0x7f020123;
     /**
+     * Round the top-end edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopEnd=0x7f020124;
     /**
+     * Round the top-left corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopLeft=0x7f020125;
     /**
+     * Round the top-right corner. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopRight=0x7f020126;
     /**
+     * Round the top-start edge. Ignored if roundAsCircle is used.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int roundTopStart=0x7f020127;
     /**
+     * Round by overlying color.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int roundWithOverlayColor=0x7f020128;
     /**
+     * Rounded corner radius. Ignored if roundAsCircle is used.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2454,12 +2484,14 @@ public final class R {
      */
     public static final int roundedCornerRadius=0x7f020129;
     /**
+     * Rounding border color
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int roundingBorderColor=0x7f02012a;
     /**
+     * Rounding border padding
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2468,6 +2500,7 @@ public final class R {
      */
     public static final int roundingBorderPadding=0x7f02012b;
     /**
+     * Rounding border width
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3209,6 +3242,7 @@ public final class R {
      */
     public static final int trackTintMode=0x7f020185;
     /**
+     * Aspect ratio (width / height) of the view, not necessarily of the images.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int viewAspectRatio=0x7f020186;
@@ -9257,7 +9291,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -11167,9 +11201,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GIFVIEW_authPlay com.camel.c7:authPlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GIFVIEW_gifSrc com.camel.c7:gifSrc}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GIFVIEW_playCount com.camel.c7:playCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GIFVIEW_authPlay com.camel.c7:authPlay}</code></td><td>是否加载完自动播放</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_gifSrc com.camel.c7:gifSrc}</code></td><td>gif文件引用</td></tr>
+     * <tr><td><code>{@link #GIFVIEW_playCount com.camel.c7:playCount}</code></td><td>播放次放，默认永远播放</td></tr>
      * </table>
      * @see #GIFVIEW_authPlay
      * @see #GIFVIEW_gifSrc
@@ -11179,8 +11213,9 @@ public final class R {
       0x7f020032, 0x7f020099, 0x7f02010b
     };
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#authPlay}
-     * attribute's value can be found in the {@link #GIFVIEW} array.
+     * <p>
+     * @attr description
+     * 是否加载完自动播放
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11189,8 +11224,9 @@ public final class R {
      */
     public static final int GIFVIEW_authPlay=0;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#gifSrc}
-     * attribute's value can be found in the {@link #GIFVIEW} array.
+     * <p>
+     * @attr description
+     * gif文件引用
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11201,8 +11237,9 @@ public final class R {
      */
     public static final int GIFVIEW_gifSrc=1;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#playCount}
-     * attribute's value can be found in the {@link #GIFVIEW} array.
+     * <p>
+     * @attr description
+     * 播放次放，默认永远播放
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11216,35 +11253,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.camel.c7:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.camel.c7:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.camel.c7:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.camel.c7:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.camel.c7:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.camel.c7:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.camel.c7:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.camel.c7:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.camel.c7:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_backgroundImage com.camel.c7:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_fadeDuration com.camel.c7:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImage com.camel.c7:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_overlayImage com.camel.c7:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImage com.camel.c7:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImage com.camel.c7:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImage com.camel.c7:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td>Round as circle.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopRight com.camel.c7:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundTopStart com.camel.c7:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
+     * <tr><td><code>{@link #GenericDraweeHierarchy_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
      * </table>
      * @see #GenericDraweeHierarchy_actualImageScaleType
      * @see #GenericDraweeHierarchy_backgroundImage
@@ -11287,8 +11324,9 @@ public final class R {
       0x7f020186
     };
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageScaleType}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Scale type of the actual image.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11312,8 +11350,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_actualImageScaleType=0;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#backgroundImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as a background.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11324,8 +11363,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_backgroundImage=1;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#fadeDuration}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Fade duration in milliseconds.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11333,8 +11373,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_fadeDuration=2;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a failure image.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11345,8 +11386,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_failureImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImageScaleType}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Scale type of the failure image. Ignored if failureImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11370,8 +11412,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_failureImageScaleType=4;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#overlayImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as an overlay.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11382,8 +11425,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_overlayImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be be used as a placeholder.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11394,8 +11438,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_placeholderImage=6;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImageScaleType}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11419,8 +11464,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_placeholderImageScaleType=7;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#pressedStateOverlayImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as a pressed-state-overlay
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11431,8 +11477,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_pressedStateOverlayImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarAutoRotateInterval}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Progress bar Auto Rotate interval in milliseconds
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -11440,8 +11487,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarAutoRotateInterval=9;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a progress bar.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11452,8 +11500,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImageScaleType}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11477,8 +11526,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_progressBarImageScaleType=11;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImage}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a retry image.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11489,8 +11539,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_retryImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImageScaleType}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Scale type of the retry image. Ignored if retryImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11514,8 +11565,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_retryImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundAsCircle}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round as circle.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11524,8 +11576,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundAsCircle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomEnd}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the bottom-end edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11534,8 +11587,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomEnd=15;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomLeft}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the bottom-left corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11544,8 +11598,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomLeft=16;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomRight}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the bottom-right corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11554,8 +11609,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomRight=17;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomStart}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the bottom-start edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11564,8 +11620,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundBottomStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopEnd}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the top-end edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11574,8 +11631,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopEnd=19;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopLeft}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the top-left corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11584,8 +11642,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopLeft=20;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopRight}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the top-right corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11594,8 +11653,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopRight=21;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopStart}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round the top-start edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11604,8 +11664,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundTopStart=22;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundWithOverlayColor}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Round by overlying color.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -11615,8 +11676,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundWithOverlayColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundedCornerRadius}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Rounded corner radius. Ignored if roundAsCircle is used.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11628,8 +11690,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundedCornerRadius=24;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderColor}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Rounding border color
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -11639,8 +11702,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderPadding}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Rounding border padding
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11652,8 +11716,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderPadding=26;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderWidth}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Rounding border width
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11665,8 +11730,9 @@ public final class R {
      */
     public static final int GenericDraweeHierarchy_roundingBorderWidth=27;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#viewAspectRatio}
-     * attribute's value can be found in the {@link #GenericDraweeHierarchy} array.
+     * <p>
+     * @attr description
+     * Aspect ratio (width / height) of the view, not necessarily of the images.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -13286,37 +13352,37 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.camel.c7:actualImageResource}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.camel.c7:actualImageUri}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.camel.c7:backgroundImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.camel.c7:fadeDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.camel.c7:failureImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.camel.c7:overlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.camel.c7:placeholderImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.camel.c7:progressBarImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.camel.c7:retryImage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.camel.c7:roundTopRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.camel.c7:roundTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageResource com.camel.c7:actualImageResource}</code></td><td>An image reference</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageScaleType com.camel.c7:actualImageScaleType}</code></td><td>Scale type of the actual image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_actualImageUri com.camel.c7:actualImageUri}</code></td><td>An image uri .</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_backgroundImage com.camel.c7:backgroundImage}</code></td><td>A drawable or color to be used as a background.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_fadeDuration com.camel.c7:fadeDuration}</code></td><td>Fade duration in milliseconds.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImage com.camel.c7:failureImage}</code></td><td>A drawable to be be used as a failure image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_failureImageScaleType com.camel.c7:failureImageScaleType}</code></td><td>Scale type of the failure image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_overlayImage com.camel.c7:overlayImage}</code></td><td>A drawable or color to be used as an overlay.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImage com.camel.c7:placeholderImage}</code></td><td>A drawable or color to be be used as a placeholder.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_placeholderImageScaleType com.camel.c7:placeholderImageScaleType}</code></td><td>Scale type of the placeholder image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_pressedStateOverlayImage com.camel.c7:pressedStateOverlayImage}</code></td><td>A drawable or color to be used as a pressed-state-overlay</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarAutoRotateInterval com.camel.c7:progressBarAutoRotateInterval}</code></td><td>Progress bar Auto Rotate interval in milliseconds</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImage com.camel.c7:progressBarImage}</code></td><td>A drawable to be be used as a progress bar.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_progressBarImageScaleType com.camel.c7:progressBarImageScaleType}</code></td><td>Scale type of the progress bar.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImage com.camel.c7:retryImage}</code></td><td>A drawable to be be used as a retry image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_retryImageScaleType com.camel.c7:retryImageScaleType}</code></td><td>Scale type of the retry image.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundAsCircle com.camel.c7:roundAsCircle}</code></td><td>Round as circle.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomEnd com.camel.c7:roundBottomEnd}</code></td><td>Round the bottom-end edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomLeft com.camel.c7:roundBottomLeft}</code></td><td>Round the bottom-left corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomRight com.camel.c7:roundBottomRight}</code></td><td>Round the bottom-right corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundBottomStart com.camel.c7:roundBottomStart}</code></td><td>Round the bottom-start edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopEnd com.camel.c7:roundTopEnd}</code></td><td>Round the top-end edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopLeft com.camel.c7:roundTopLeft}</code></td><td>Round the top-left corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopRight com.camel.c7:roundTopRight}</code></td><td>Round the top-right corner.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundTopStart com.camel.c7:roundTopStart}</code></td><td>Round the top-start edge.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundWithOverlayColor com.camel.c7:roundWithOverlayColor}</code></td><td>Round by overlying color.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundedCornerRadius com.camel.c7:roundedCornerRadius}</code></td><td>Rounded corner radius.</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderColor com.camel.c7:roundingBorderColor}</code></td><td>Rounding border color</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderPadding com.camel.c7:roundingBorderPadding}</code></td><td>Rounding border padding</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_roundingBorderWidth com.camel.c7:roundingBorderWidth}</code></td><td>Rounding border width</td></tr>
+     * <tr><td><code>{@link #SimpleDraweeView_viewAspectRatio com.camel.c7:viewAspectRatio}</code></td><td>Aspect ratio (width / height) of the view, not necessarily of the images.</td></tr>
      * </table>
      * @see #SimpleDraweeView_actualImageResource
      * @see #SimpleDraweeView_actualImageScaleType
@@ -13361,8 +13427,9 @@ public final class R {
       0x7f02012b, 0x7f02012c, 0x7f020186
     };
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageResource}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * An image reference
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13373,8 +13440,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageResource=0;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageScaleType}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Scale type of the actual image.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13398,8 +13466,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageScaleType=1;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#actualImageUri}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * An image uri .
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13408,8 +13477,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_actualImageUri=2;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#backgroundImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as a background.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13420,8 +13490,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_backgroundImage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#fadeDuration}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Fade duration in milliseconds.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13429,8 +13500,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_fadeDuration=4;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a failure image.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13441,8 +13513,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_failureImage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#failureImageScaleType}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Scale type of the failure image. Ignored if failureImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13466,8 +13539,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_failureImageScaleType=6;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#overlayImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as an overlay.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13478,8 +13552,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_overlayImage=7;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be be used as a placeholder.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13490,8 +13565,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_placeholderImage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#placeholderImageScaleType}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Scale type of the placeholder image. Ignored if placeholderImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13515,8 +13591,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_placeholderImageScaleType=9;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#pressedStateOverlayImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable or color to be used as a pressed-state-overlay
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13527,8 +13604,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_pressedStateOverlayImage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarAutoRotateInterval}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Progress bar Auto Rotate interval in milliseconds
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13536,8 +13614,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarAutoRotateInterval=11;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a progress bar.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13548,8 +13627,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarImage=12;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#progressBarImageScaleType}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Scale type of the progress bar. Ignored if progressBarImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13573,8 +13653,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_progressBarImageScaleType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImage}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * A drawable to be be used as a retry image.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13585,8 +13666,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_retryImage=14;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#retryImageScaleType}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Scale type of the retry image. Ignored if retryImage is not specified.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13610,8 +13692,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_retryImageScaleType=15;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundAsCircle}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round as circle.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13620,8 +13703,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundAsCircle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomEnd}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the bottom-end edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13630,8 +13714,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomLeft}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the bottom-left corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13640,8 +13725,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomLeft=18;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomRight}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the bottom-right corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13650,8 +13736,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomRight=19;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundBottomStart}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the bottom-start edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13660,8 +13747,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundBottomStart=20;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopEnd}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the top-end edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13670,8 +13758,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopEnd=21;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopLeft}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the top-left corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13680,8 +13769,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopLeft=22;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopRight}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the top-right corner. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13690,8 +13780,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopRight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundTopStart}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round the top-start edge. Ignored if roundAsCircle is used.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13700,8 +13791,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundTopStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundWithOverlayColor}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Round by overlying color.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -13711,8 +13803,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundWithOverlayColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundedCornerRadius}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Rounded corner radius. Ignored if roundAsCircle is used.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13724,8 +13817,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundedCornerRadius=26;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderColor}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Rounding border color
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -13735,8 +13829,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderColor=27;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderPadding}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Rounding border padding
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13748,8 +13843,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#roundingBorderWidth}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Rounding border width
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13761,8 +13857,9 @@ public final class R {
      */
     public static final int SimpleDraweeView_roundingBorderWidth=29;
     /**
-     * <p>This symbol is the offset where the {@link com.camel.c7.R.attr#viewAspectRatio}
-     * attribute's value can be found in the {@link #SimpleDraweeView} array.
+     * <p>
+     * @attr description
+     * Aspect ratio (width / height) of the view, not necessarily of the images.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
